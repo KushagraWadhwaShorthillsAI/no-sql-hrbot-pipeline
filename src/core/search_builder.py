@@ -18,7 +18,10 @@ def bm25_pipeline(keywords: List[str], k: int = 300) -> List[Dict]:
                         { "text": { "query": query, "path": "projects.title",
                                     "score": { "boost": { "value": 3 } } } },
                         { "text": { "query": query, "path": "experience.title" } },
-                        { "text": { "query": query, "path": "summary" } }
+                        { "text": { "query": query, "path": "summary" } },
+                        { "text": { "query": query,
+                                    "path": "name",
+                                    "score": { "boost": { "value": 8 } } } }
                     ]
                 }
             }
