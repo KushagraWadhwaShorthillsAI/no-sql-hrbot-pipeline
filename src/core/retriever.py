@@ -6,6 +6,7 @@ import httpx
 from pymongo import MongoClient
 from .config import MONGO_URI, DB_NAME, COLLECTION_NAME
 from dotenv import load_dotenv
+from .search_builder import bm25_pipeline
 
 load_dotenv()
 PIPELINE_MODE = os.getenv("PIPELINE_MODE", "false").lower() == "true"
@@ -105,6 +106,7 @@ From the query, extract:
   - Related terms that people usually put in their resumes instead of the exact keywords extracted (e.g., "REST" → "rest api", "restful api")
   - Decomposed tokens for multi-word phrases (e.g., "rahul sharma" → "rahul", "sharma")
 ✓ Maintain all original keywords too.
+✓ try to break the keywords into meanigful singular words as well that can help in better keyword search.
 
 --- What to Avoid ---
 ✗ Don't include standalone generic verbs like "implemented", "built", "worked" in case of technical skills related query if required you can keep them for non tech queries
@@ -165,10 +167,13 @@ Return only a **valid JSON array** of strings. Example:
                 "error": "Keyword extraction failed"
             }
 
-        mongo_query = self.build_mongo_query(keywords)
-        print("\n🔎 Searching in MongoDB...")
-        results = list(self.collection.find(mongo_query))
-
+        # mongo_query = self.build_mongo_query(keywords)
+        # print("\n🔎 Searching in MongoDB...")
+        # results = list(self.collection.find(mongo_query))
+        pipeline = bm25_pipeline(keywords, k=300)
+        print("\n🔎 Searching in MongoDB with BM25 pipeline...")
+        results  = list(self.collection.aggregate(pipeline))
+        
         print(f"\n📊 Found {len(results)} matching resumes:\n")
         for res in results:
             print(f" - {res.get('name')} | {res.get('email')}")

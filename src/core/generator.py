@@ -91,7 +91,7 @@ Your task is to:
 - Avoid hallucinations: base your decisions **strictly on the resume content**.
 
 Guidelines:
-- If the query is simple and broad (e.g., "List all Python developers"), then **most resumes might be relevant** and re-ranking isn't necessary. In such cases, list them all under "relevant_names" with minimal or no "irrelevant_names".
+- If the query is simple and broad (e.g., "List all Python developers"), then **most resumes might be relevant** and re-rank based on relevancy to the query. In such cases, list them all under "relevant_names" with minimal or no "irrelevant_names".
 - If the query includes multiple filters (e.g., "Python devs with knowledge of C++ and ML frameworks"), you must find resumes that satisfy **all conditions**, and consider others as less relevant or irrelevant.
 - For ambiguous or subjective queries (e.g., "candidates showing a clear career shift"), use your best analytical reasoning from the resume timeline, titles, and industries.
 - If you're unsure about a resume, **default to keeping it relevant** rather than wrongly discarding it.
