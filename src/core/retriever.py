@@ -7,6 +7,7 @@ from pymongo import MongoClient
 from .config import MONGO_URI, DB_NAME, COLLECTION_NAME
 from dotenv import load_dotenv
 from .search_builder import bm25_pipeline
+from collections import defaultdict
 
 load_dotenv()
 PIPELINE_MODE = os.getenv("PIPELINE_MODE", "false").lower() == "true"
@@ -22,6 +23,38 @@ def safe_json_load(text: str):
     except json.JSONDecodeError:
         print("❌ Failed to parse JSON from LLM response.")
         return None
+
+def apply_rrf(bm25_hits, vector_hits, k_rrf=60):
+    """
+    Applies Reciprocal Rank Fusion over two ranked lists (BM25 + Vector).
+    Returns a unified list of resumes sorted by fused RRF score.
+    """
+    rank_scores = {}
+
+    def score_doc(doc, rank, weight=1.0):
+        _id = str(doc.get("_id", doc.get("email", doc.get("name", ""))))
+        rank_scores.setdefault(_id, {
+            "doc": doc,
+            "rrf_score": 0,
+            "sources": [],
+        })
+        rank_scores[_id]["rrf_score"] += weight / (k_rrf + rank)
+        rank_scores[_id]["sources"].append(rank)
+
+    for rank, doc in enumerate(bm25_hits):
+        score_doc(doc, rank, weight=1.0)
+
+    for rank, doc in enumerate(vector_hits):
+        score_doc(doc, rank, weight=1.0)
+
+    fused = list(rank_scores.values())
+    fused.sort(key=lambda x: x["rrf_score"], reverse=True)
+
+    return [
+        {**entry["doc"], "rrf_score": entry["rrf_score"]}
+        for entry in fused
+    ]
+
 
 
 class ResumeRetriever:
@@ -115,7 +148,7 @@ From the query, extract:
 
 --- Output Format ---
 Return only a **valid JSON array** of strings. Example:
-["api testing", "rest api", "payroll", "rahul sharma", "rahul", "sharma"]
+["api testing", "rest api", "payroll", "rahul sharma", "rahul"]
 
 --- Query ---
 {query}
@@ -193,25 +226,142 @@ Return only a **valid JSON array** of strings. Example:
         }
         with open(log_path, "a", encoding="utf-8") as f:
             f.write(json.dumps(log_data, ensure_ascii=False) + "\n")
+    
+    
+    async def embed_query(self, query: str) -> list[float]:
+        """
+        Embed the query using Azure OpenAI embedding API.
+        """
+        url = f"{self.azure_endpoint}/openai/deployments/{os.getenv('AZURE_EMBEDDING_DEPLOYMENT')}/embeddings?api-version={os.getenv('AZURE_EMBEDDING_API_VERSION')}"
+        headers = {"Content-Type": "application/json", "api-key": self.azure_key}
+        body = {"input": query}
+        async with httpx.AsyncClient(timeout=60) as client:
+            r = await client.post(url, headers=headers, json=body)
+            r.raise_for_status()
+            return r.json()["data"][0]["embedding"]
+
+    async def vector_search(self, query: str, k: int = 100) -> list[dict]:
+        """
+        Runs per-field knnBeta vector search and fuses results (via max score).
+        """
+        print(f"\n🧠 Embedding query for vector search: '{query}'")
+        qvec = await self.embed_query(query)
+
+        fields = [
+            "summary_embed",
+            "skills_embed",
+            "projects_embed",
+            "experience_embed",
+            "certifications_embed",
+            "education_embed"
+        ]
+
+        results_by_id = defaultdict(lambda: {"score_vec": 0.0, "sources": set()})
+
+        for field in fields:
+            print(f"🔍 Searching field: {field}")
+            pipeline = [
+                {
+                    "$search": {
+                        "index": "default_vector",
+                        "knnBeta": {
+                            "vector": qvec,
+                            "path": field,
+                            "k": k
+                        }
+                    }
+                },
+                { "$project": {
+                    "_id": 1,
+                    "name": 1,
+                    "email": 1,
+                    "summary": 1,
+                    "score_vec": { "$meta": "searchScore" }
+                }}
+            ]
+
+            for doc in self.collection.aggregate(pipeline):
+                _id = str(doc["_id"])
+                if doc["score_vec"] > results_by_id[_id]["score_vec"]:
+                    results_by_id[_id].update({
+                        "doc": doc,
+                        "score_vec": doc["score_vec"],
+                    })
+                results_by_id[_id]["sources"].add(field)
+
+        print(f"✅ Fused results from {len(fields)} fields. Found {len(results_by_id)} unique resumes.")
+
+        # Convert and sort
+        fused_results = [
+            {**v["doc"], "score_vec": v["score_vec"], "matched_fields": list(v["sources"])}
+            for v in results_by_id.values()
+        ]
+        fused_results.sort(key=lambda r: r["score_vec"], reverse=True)
+
+        return fused_results
+    
+    async def hybrid_search(self, query: str, top_n_each=200) -> dict:
+        print(f"\n🤝 Running hybrid search for: '{query}'")
+
+        # Step 1: BM25 (via proper $search pipeline)
+        keywords = await self.extract_keywords(query)
+        pipeline = bm25_pipeline(keywords, k=top_n_each)
+        print("\n🔎 Searching in MongoDB with BM25 pipeline...")
+        bm25_results = list(self.collection.aggregate(pipeline))
+        print(f"📚 BM25 retrieved {len(bm25_results)} resumes")
+
+        # Step 2: Vector
+        vector_results = await self.vector_search(query, k=top_n_each)
+        print(f"🧠 Vector search returned {len(vector_results)} resumes")
+
+        # Step 3: RRF Fusion
+        final = apply_rrf(bm25_results, vector_results)
+        print(f"✅ RRF fusion produced {len(final)} unified results")
+
+        return {
+            "query": query,
+            "bm25": bm25_results,
+            "vector": vector_results,
+            "fused": final
+        }
+
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--query", required=True, help="Natural language resume query")
     parser.add_argument("--use-gemini", action="store_true", help="Use Gemini instead of Azure")
+    parser.add_argument("--mode", choices=["bm25", "vector", "hybrid"], default="bm25", help="Retrieval mode (bm25 | vector | hybrid)")
     args = parser.parse_args()
 
     retriever = ResumeRetriever()
-    result = asyncio.run(retriever.search(args.query, use_gemini=args.use_gemini))
 
-    # import pprint
-    # pprint.pprint(result)
+    if args.mode == "bm25":
+        result = asyncio.run(retriever.search(args.query, use_gemini=args.use_gemini))
+        log_path = "data/nosql_retrieval_logs.jsonl"
+        retriever.log_query_result(
+            query=result["query"],
+            keywords=result["keywords"],
+            matched=result["matched"],
+            log_path=log_path
+        )
+    elif args.mode == "hybrid":
+        result = asyncio.run(retriever.hybrid_search(args.query))
+        
+        print("\n🔍 Top 10 from BM25:")
+        for doc in result["bm25"][:10]:
+            print(f" - {doc.get('name')} | via BM25")
 
-    log_path = "data/nosql_retrieval_logs.jsonl"
-    retriever.log_query_result(
-        query=result["query"],
-        keywords=result["keywords"],
-        matched=result["matched"],
-        log_path=log_path
-    )
+        print("\n🔍 Top 10 from Vector:")
+        for doc in result["vector"][:10]:
+            print(f" - {doc.get('name')} | via Vector")
+
+        print("\n🔝 Top 10 from RRF Fusion:")
+        for doc in result["fused"][:10]:
+            print(f" - {doc.get('name')} | RRF score = {doc.get('rrf_score'):.4f}")
+
+    else:
+        results = asyncio.run(retriever.vector_search(args.query))
+        for r in results[:10]:
+            print(f" - {r['name']} | vec_score = {r['score_vec']:.4f} | fields = {', '.join(r['matched_fields'])}")
 
