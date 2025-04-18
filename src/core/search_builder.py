@@ -1,36 +1,36 @@
-# search_builder.py
 from typing import List, Dict
 
-def bm25_pipeline(keywords: List[str], k: int = 300) -> List[Dict]:
-    """
-    Build the same boosted compound $search you verified in Atlas Playground.
-    """
-    query = " ".join(keywords)
+def bm25_pipeline(keywords: list[str], fields: list[str] = None, boost: int = 2, min_match: int = 2, top_k :int = 200) -> dict:
+    if not fields:
+        fields = [
+            "name", "location", "summary", "skills",
+            "experience.title", "experience.description", "experience.company",
+            "projects.title", "projects.description",
+            "education.degree", "education.institution", "education.year",
+            "certifications.title", "certifications.issuer"
+        ]
+
+    should_clauses = []
+    for kw in keywords:
+        should_clauses.append({
+            "text": {
+                "query": kw,
+                "path": fields,
+                "score": { "boost": { "value": boost } }
+            }
+        })
 
     return [
         {
             "$search": {
-                "index": "default_bm25",
+                "index": "bm25_static",
                 "compound": {
-                    "should": [
-                        { "text": { "query": query, "path": "skills",
-                                    "score": { "boost": { "value": 5 } } } },
-                        { "text": { "query": query, "path": "projects.title",
-                                    "score": { "boost": { "value": 3 } } } },
-                        { "text": { "query": query, "path": "experience.title" } },
-                        { "text": { "query": query, "path": "summary" } },
-                        { "text": { "query": query,
-                                    "path": "name",
-                                    "score": { "boost": { "value": 8 } } } }
-                    ]
+                    "should": should_clauses,
+                    "minimumShouldMatch": min(min_match, len(should_clauses))
                 }
             }
         },
-        { "$limit": k },
         {
-            "$project": {
-                "_id": 1, "name": 1, "skills": 1,
-                "score": { "$meta": "searchScore" }
-            }
+            "$limit": top_k
         }
     ]

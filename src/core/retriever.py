@@ -6,7 +6,7 @@ import httpx
 from pymongo import MongoClient
 from .config import MONGO_URI, DB_NAME, COLLECTION_NAME
 from dotenv import load_dotenv
-from .search_builder import bm25_pipeline
+from src.core.search_builder import bm25_pipeline
 from collections import defaultdict
 
 load_dotenv()
@@ -176,9 +176,22 @@ Return only a **valid JSON array** of strings. Example:
         print("\n🔧 Building MongoDB OR query...")
         or_conditions = []
         fields = [
-            "name","summary", "skills", "projects.description", "projects.title",
-            "experience.description", "experience.title", "experience.company",
-            "education.institution", "certifications.title", "certifications.issuer",
+            "name",
+            "location",
+            "summary",
+            "skills",
+            "experience.title",
+            "experience.description",
+            "experience.company",
+            "projects.title",
+            "projects.description",
+            "education.degree",
+            "education.institution",
+            "education.year",
+            "certifications.title",
+            "certifications.issuer",
+            # "languages",
+            # "social_profiles"
         ]
 
         for kw in keywords:
@@ -189,9 +202,15 @@ Return only a **valid JSON array** of strings. Example:
         # print("📄 Final Mongo Query:\n", json.dumps(query, indent=2))
         return query
 
-    async def search(self, query: str, use_gemini: bool = False) -> dict:
-        print(f"\n🔍 Original NL Query: \"{query}\"")
-        keywords = await self.extract_keywords(query, use_gemini)
+    async def search(self, query: str, override_keywords: list[str] = None, use_gemini: bool = False) -> dict:
+        print(f"\n🔍 Original NL Query: in search \"{query}\"")
+
+        if override_keywords:
+            keywords = override_keywords
+            print(f"📌 Using manual keywords: {keywords}")
+        else:
+            keywords = await self.extract_keywords(query, use_gemini)
+
         if not keywords:
             return {
                 "query": query,
@@ -200,13 +219,10 @@ Return only a **valid JSON array** of strings. Example:
                 "error": "Keyword extraction failed"
             }
 
-        # mongo_query = self.build_mongo_query(keywords)
-        # print("\n🔎 Searching in MongoDB...")
-        # results = list(self.collection.find(mongo_query))
-        pipeline = bm25_pipeline(keywords, k=300)
+        pipeline = bm25_pipeline(keywords, top_k=10)
         print("\n🔎 Searching in MongoDB with BM25 pipeline...")
-        results  = list(self.collection.aggregate(pipeline))
-        
+        results = list(self.collection.aggregate(pipeline))
+
         print(f"\n📊 Found {len(results)} matching resumes:\n")
         for res in results:
             print(f" - {res.get('name')} | {res.get('email')}")
@@ -215,17 +231,10 @@ Return only a **valid JSON array** of strings. Example:
             "query": query,
             "keywords": keywords,
             "matched": [
-               {**res, "_id": str(res["_id"])} for res in results
+            {**res, "_id": str(res["_id"])} for res in results
             ]
         }
-    def log_query_result(self, query: str, keywords: list[str], matched: list[dict], log_path: str):
-        log_data = {
-            "query": query,
-            "keywords": keywords,
-            "matched_names": [res.get("name", "Not Provided") for res in matched],
-        }
-        with open(log_path, "a", encoding="utf-8") as f:
-            f.write(json.dumps(log_data, ensure_ascii=False) + "\n")
+
     
     
     async def embed_query(self, query: str) -> list[float]:
@@ -300,17 +309,23 @@ Return only a **valid JSON array** of strings. Example:
 
         return fused_results
     
-    async def hybrid_search(self, query: str, top_n_each=200) -> dict:
+    async def hybrid_search(self, query: str, bm25_override: list[str] = None, top_n_each=200) -> dict:
         print(f"\n🤝 Running hybrid search for: '{query}'")
 
-        # Step 1: BM25 (via proper $search pipeline)
-        keywords = await self.extract_keywords(query)
+        # Step 1: BM25
+        if bm25_override:
+            keywords = bm25_override
+            print(f"📌 Using manual BM25 keywords: {keywords}")
+        else:
+            keywords = await self.extract_keywords(query)
+            print(f"🔍 Extracted BM25 keywords: {keywords}")
+
         pipeline = bm25_pipeline(keywords, k=top_n_each)
         print("\n🔎 Searching in MongoDB with BM25 pipeline...")
         bm25_results = list(self.collection.aggregate(pipeline))
         print(f"📚 BM25 retrieved {len(bm25_results)} resumes")
 
-        # Step 2: Vector
+        # Step 2: Vector (always use the full query for semantically rich embeddings)
         vector_results = await self.vector_search(query, k=top_n_each)
         print(f"🧠 Vector search returned {len(vector_results)} resumes")
 
@@ -324,7 +339,35 @@ Return only a **valid JSON array** of strings. Example:
             "vector": vector_results,
             "fused": final
         }
+    def keyword_search(self, keywords: list[str], top_k: int = 200) -> list[dict]:
+        print("\n🔍 Running simple keyword match (non-regex)...")
 
+        fields = [
+            "name", "location", "summary", "skills",
+            "experience.title", "experience.description", "experience.company",
+            "projects.title", "projects.description",
+            "education.degree", "education.institution", "education.year",
+            "certifications.title", "certifications.issuer"
+        ]
+
+        or_conditions = []
+        for field in fields:
+            for kw in keywords:
+                or_conditions.append({field: {"$regex": kw, "$options": "i"}})
+
+        query = {"$or": or_conditions}
+        print(f"🛠 Built MongoDB $or query with {len(or_conditions)} conditions")
+        return list(self.collection.find(query).limit(top_k))
+
+    
+    def bm25_search_from_keywords(self, keywords: list[str], top_k: int = 100) -> list[dict]:
+        """
+        Run BM25-style search directly from pre-extracted keywords.
+        """
+        from .search_builder import bm25_pipeline
+        pipeline = [bm25_pipeline(keywords)]
+        results = list(self.collection.aggregate(pipeline))
+        return results[:top_k]
 
 
 if __name__ == "__main__":
