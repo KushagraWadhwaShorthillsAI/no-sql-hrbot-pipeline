@@ -1,0 +1,54 @@
+{
+    "direct_listing": [
+      "List any work related to salary processing, tax deductions, employee benefits, and the payroll software they have used.",
+      "Retrieve candidates who have experience in handling employee grievances, workplace conflicts, or legal compliance issues.",
+      "Find candidates with experience in developing HR policies and ensuring compliance with labor laws.",
+      "Find candidates who have worked on a CRM project.",
+      "Find candidates who have worked on CRM or built a CRM from scratch.",
+      "List candidates who have worked on AI-powered chatbots.",
+      "List candidates with experience in Generative AI or LLM-based applications.",
+      "Who has experience in building Progressive Web Apps.",
+      "List candidates with experience in SEO, PPC, and digital marketing.",
+      "Who has managed large-scale B2B sales pipelines.",
+      "List candidates with experience in EdTech platforms and personalized learning algorithms.",
+      "Find tech leaders who have scaled engineering teams from startup to enterprise level.",
+      "Find candidates who have experience as a Product Manager in the last 3 years.",
+      "Find candidates with expertise in both frontend (React, Angular) and backend (Node.js, Django).",
+       "List candidates who have worked on AI/ML models and have expertise in TensorFlow or PyTorch.",
+       "Find candidates with experience in cybersecurity and cloud security, specifically in AWS security architecture and SOC operations.",
+       "Filter out the number of candidates with experience in prompt engineering.",
+       "Filter out the number of candidates with experience in admin and event management.",
+       "How many candidates do we have as a Technical Architect?",
+       "List the people who are from Gurgaon location."
+    ],
+    "listing_with_multi_condition": [
+      "Candidates who have at least 2 years of experience with Python and have worked with Django and REST APIs."
+    ],
+    "reasoning": [
+      "Candidates with experience in client-facing roles.",
+      "Identify if the candidate has managed teams, led test automation initiatives, or conducted training sessions.",
+      "Identify API testing experience from the resume. Extract details on the tools, methodologies, and types of APIs tested (REST, SOAP, GraphQL). Provide an example of a project where API testing was implemented.",
+      "Candidates who have held a .NET Developer role and have Python and Machine Learning listed in their skills.",
+      "Find candidates who have at least 4 years of React.js experience and have mentored a team of 5 or more.",
+      "Find candidates who have managed multiple projects in the last 2 years.",
+      "List candidates with a CPA certification who also have experience in financial automation.",
+      "Find candidates whose latest job title is significantly different from their first job title, indicating a career shift. Include job titles, company names, and transition years.",
+      "Find candidates who started in a non-technical role and later moved to a technical role.",
+      "List out the candidates who started as engineers or developers but later moved to management, marketing, or HR roles.",
+      "Find candidates who had a career gap of at least 2 years and returned in a different field.",
+      "List candidates who changed careers more than twice.",
+      "Who has taken a sabbatical and returned to work in a different industry?",
+      "Who has worked in a contract role and is now looking for full-time positions.",
+      "Find candidates who started as Software Engineers, then became Tech Leads, and are now Engineering Managers with over 10 years of experience.",
+      "Find candidates who started as Software Engineers and later transitioned to Product Management roles with at least 3 years of experience as Product Managers."
+    ],
+    "identity_filter": [
+      "Find candidates with a Master’s degree in Computer Science and at least 3 years of experience in cloud security.",
+      "Find candidates with a Ph.D."
+    ],
+    "ambiguous/mixed": [
+        "DevOps related Query, Content+SEO related query.",
+        "Who knows PowerBI with SQL and has experience working with R programming language."
+    ]
+  }
+  

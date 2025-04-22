@@ -1,0 +1,38 @@
+[
+  {
+    "query_id": "query_8",
+    "query_text": "Find candidates who had a career gap of at least 2 years and returned in a different field."
+  },
+  {
+    "query_id": "query_11",
+    "query_text": "Find candidates who have at least 4 years of React.js experience and have mentored a team of 5 or more."
+  },
+  {
+    "query_id": "query_20",
+    "query_text": "List candidates who changed careers more than twice."
+  },
+  {
+    "query_id": "query_23",
+    "query_text": "How many candidates do we have as a Technical Architect?"
+  },
+  {
+    "query_id": "query_24",
+    "query_text": "Who has taken a sabbatical and returned to work in a different industry?"
+  },
+  {
+    "query_id": "query_34",
+    "query_text": "Find candidates who started as Software Engineers, then became Tech Leads, and are now Engineering Managers with over 10 years of experience."
+  },
+  {
+    "query_id": "query_37",
+    "query_text": "Find candidates with a Ph.D."
+  },
+  {
+    "query_id": "query_38",
+    "query_text": "List candidates with a CPA certification who also have experience in financial automation."
+  },
+  {
+    "query_id": "query_39",
+    "query_text": "Find tech leaders who have scaled engineering teams from startup to enterprise level."
+  }
+]

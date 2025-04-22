@@ -173,7 +173,8 @@ Return only a **valid JSON array** of strings. Example:
 
 
     def build_mongo_query(self, keywords: list[str]) -> dict:
-        print("\n🔧 Building MongoDB OR query...")
+        import re
+        print("\n🔧 Building MongoDB OR query (strict + word-bound regex)...")
         or_conditions = []
         fields = [
             "name",
@@ -190,17 +191,24 @@ Return only a **valid JSON array** of strings. Example:
             "education.year",
             "certifications.title",
             "certifications.issuer",
-            # "languages",
-            # "social_profiles"
         ]
 
         for kw in keywords:
+            kw = kw.strip()
+            if not kw:
+                continue
+
+            # Escape any special characters and use word boundaries
+            safe_kw = re.escape(kw)
+            regex = rf"\b{safe_kw}\b"
+
             for field in fields:
-                or_conditions.append({field: {"$regex": kw, "$options": "i"}})
+                or_conditions.append({field: {"$regex": regex, "$options": "i"}})
 
         query = {"$or": or_conditions} if or_conditions else {}
-        # print("📄 Final Mongo Query:\n", json.dumps(query, indent=2))
+        print(f"🛠 Built MongoDB $or query with {len(or_conditions)} conditions")
         return query
+
 
     async def search(self, query: str, override_keywords: list[str] = None, use_gemini: bool = False) -> dict:
         print(f"\n🔍 Original NL Query: in search \"{query}\"")
@@ -249,12 +257,18 @@ Return only a **valid JSON array** of strings. Example:
             r.raise_for_status()
             return r.json()["data"][0]["embedding"]
 
-    async def vector_search(self, query: str, k: int = 100) -> list[dict]:
+    async def vector_search(self, query: str, k: int = 100, override_keywords: list[str] = None) -> list[dict]:
         """
         Runs per-field knnBeta vector search and fuses results (via max score).
         """
-        print(f"\n🧠 Embedding query for vector search: '{query}'")
-        qvec = await self.embed_query(query)
+        if override_keywords:
+            print(f"\n🧠 Embedding manual keywords instead of full query: {override_keywords}")
+            query_to_embed = " ".join(override_keywords)
+        else:
+            print(f"\n🧠 Embedding query for vector search: '{query}'")
+            query_to_embed = query
+
+        qvec = await self.embed_query(query_to_embed)
 
         fields = [
             "summary_embed",
@@ -307,7 +321,8 @@ Return only a **valid JSON array** of strings. Example:
         ]
         fused_results.sort(key=lambda r: r["score_vec"], reverse=True)
 
-        return fused_results
+        print(f"🔢 Returning top {k} fused vector results.")
+        return fused_results[:k]
     
     async def hybrid_search(self, query: str, bm25_override: list[str] = None, top_n_each=200) -> dict:
         print(f"\n🤝 Running hybrid search for: '{query}'")
@@ -340,24 +355,44 @@ Return only a **valid JSON array** of strings. Example:
             "fused": final
         }
     def keyword_search(self, keywords: list[str], top_k: int = 200) -> list[dict]:
-        print("\n🔍 Running simple keyword match (non-regex)...")
+        print("\n🔍 Running pure keyword search (non-regex, substring match)...")
 
         fields = [
             "name", "location", "summary", "skills",
             "experience.title", "experience.description", "experience.company",
             "projects.title", "projects.description",
-            "education.degree", "education.institution", "education.year",
+            "education.degree", "education.institution",
             "certifications.title", "certifications.issuer"
         ]
 
-        or_conditions = []
-        for field in fields:
-            for kw in keywords:
-                or_conditions.append({field: {"$regex": kw, "$options": "i"}})
+        keywords_lower = [kw.lower() for kw in keywords]
+        all_docs = list(self.collection.find({}))  # Load all docs, filter in Python
 
-        query = {"$or": or_conditions}
-        print(f"🛠 Built MongoDB $or query with {len(or_conditions)} conditions")
-        return list(self.collection.find(query).limit(top_k))
+        matched_docs = []
+        for doc in all_docs:
+            doc_text = ""
+
+            for field in fields:
+                parts = field.split(".")
+                value = doc
+                for part in parts:
+                    if isinstance(value, list):
+                        value = " ".join(str(item.get(part, "")) for item in value if isinstance(item, dict))
+                    else:
+                        value = value.get(part, "") if isinstance(value, dict) else ""
+                doc_text += f" {value}"
+
+            doc_text = doc_text.lower()
+
+            if any(kw in doc_text for kw in keywords_lower):
+                matched_docs.append(doc)
+
+            if len(matched_docs) >= top_k:
+                break
+
+        print(f"✅ Matched {len(matched_docs)} docs using keyword presence")
+        return matched_docs
+
 
     
     def bm25_search_from_keywords(self, keywords: list[str], top_k: int = 100) -> list[dict]:

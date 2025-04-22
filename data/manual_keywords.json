@@ -1,0 +1,143 @@
+{
+  "Identify if the candidate has managed teams, led test automation initiatives, or conducted training sessions.": [
+    "team", "train", "handled", "managed", "coach", "team management", "leadership", "mentor"
+  ],
+  "Identify API testing experience from the resume. Extract details on the tools, methodologies, and types of APIs tested (REST, SOAP, GraphQL). Provide an example of a project where API testing was implemented.": [
+    "Restful", "API", "SOAP APIs", "GraphQL", "API testing", "API testing tools"
+  ],
+  "List any work related to salary processing, tax deductions, employee benefits, and the payroll software they have used.": [
+    "payroll", "tax"
+  ],
+  "Retrieve candidates who have experience in handling employee grievances, workplace conflicts, or legal compliance issues.": [
+    "grievance handling", "grievance", "conflict resolution" 
+  ],
+  "Find candidates with experience in developing HR policies and ensuring compliance with labor laws.": [
+    
+    "policy development", "policy manual", "labor laws", "hr policies"
+  ],
+  "Find candidates whose latest job title is significantly different from their first job title, indicating a career shift. Include job titles, company names, and transition years.": [
+    "career shift", "career transition", "domain switch", "role change", "moved from", "job change",
+    "career change", "job switch", "first job title", "latest job title", "transition years"
+  ],
+  "Find candidates who started in a non-technical role and later moved to a technical role.": [
+    "non-technical to technical", "career transition", "domain switch", "developer now",
+    "started in support", "transitioned into tech", "technical role"
+  ],
+  "List out the candidates who started as engineers or developers but later moved to management, marketing, or HR roles.": [
+    "developer to manager", "engineer to manager", "moved to hr", "shift to marketing",
+    "career shift", "management role", "role change"
+  ],
+  "Find candidates who had a career gap of at least 2 years and returned in a different field.": [
+    "career break", "career gap", "gap of 2 years", "resumed career", "different field", "returned to work",
+    "gap in work experience", "gap explanation"
+  ],
+  "Candidates who have at least 2 years of experience with Python and have worked with Django and REST APIs.": [
+    "python", "django", "rest", "restful apis using Django"
+  ],
+  "Candidates who have held a .NET Developer role and have Python and Machine Learning listed in their skills.": [
+    ".net", "c#", "python", "machine", "learning", "developer", "ml", "models", "stack", "backend"
+  ],
+  "Find candidates who have at least 4 years of React.js experience and have mentored a team of 5 or more.": [
+    "react.js", "react", "frontend", "team", "mentored", "lead", "developer", "architect"
+  ],
+  "Filter out the number of candidates with experience in prompt engineering.": [
+    "prompt engineering", "finetuned LLM Meta's Llama-2", "prompt engg", "prompting techniques", "crafted precise prompts", "evaluations of the llm application", "effective prompts"
+  ],
+  "Filter out the number of candidates with experience in admin and event management.": [
+   "Organized 10+ company events", "promotional activities", "managed the admin", "Hr generalist cum Admin", "admin work", "Administrative professional", "Organized and managed", "organize and carry out club events", "Event manager"
+  ],
+  "Find candidates who have worked on a CRM project.": [
+    "crm", "zoho", "salesforce", "appointment management"
+  ],
+  "Find candidates who have worked on CRM or built a CRM from scratch.": [
+    "integrated crm", "crm incorporating", "shape our current CRM", "crm analytics", "website layout design, CRM"
+  ],
+  "Who knows PowerBI with SQL and has experience working with R programming language.": [
+    "Power BI", "SQL, and R.", "SQL", "Power BI and R"
+  ],
+  "List the people who are from Gurgaon location.": [
+    "gurgaon", "gurugram"
+  ],
+  "Do we have any candidate who has worked with the e-commerce industry, Amazon listing, or secondary research.": [
+    "e-commerce", "amazon listing", "product listing", "flipkart", "online marketplace",
+    "secondary research", "marketplace operations", "vendor central", "seller central"
+  ],
+  "Find candidates who have experience as a Product Manager in the last 3 years.": [
+    "product manager at", "product manager for", "product manager with"
+  ],
+  "List candidates who changed careers more than twice.": [
+    "multiple career changes", "domain switch", "role change", "career transitions",
+    "different industries", "varied job history"
+  ],
+  "List candidates who have worked on AI-powered chatbots.": [
+   "chatbot", "AI-powered", "GenAI", "AI chatbot", "LangChain"
+  ],
+  "Find candidates who have managed multiple projects in the last 2 years.": [
+    "multiple projects", "project management", "handled multiple", "project delivery",
+    "managed releases", "last 2 years", "parallel projects"
+  ],
+  "How many candidates do we have as a Technical Architect?": [
+    "Technical Architect"
+  ],
+  "Who has taken a sabbatical and returned to work in a different industry?": [
+    "sabbatical", "career break", "industry change", "domain switch", "return to work"
+  ],
+  "Who has worked in a contract role and is now looking for full-time positions.": [
+    "contract role", "contractual", "freelance", "looking for full-time", "permanent role",
+    "full-time opportunity"
+  ],
+  "List candidates who have worked on AI/ML models and have expertise in TensorFlow or PyTorch.": [
+    "tensorflow", "pytorch", "CNN", "AI/ML", "machine learning"
+  ],
+  "List candidates with experience in Generative AI or LLM-based applications.": [
+    "OpenAI API", "LLM", "Retrieval-Augmented Generation", "Generative AI", "LLM-based applications","GenAI", "RAG", "embedding generation", "AI Assistant"
+  ],
+  "Find candidates with expertise in both frontend (React, Angular) and backend (Node.js, Django).": [
+    "Reactjs","Node.js","React", "Angular", "MERN", "NodeJs","Django"
+  ],
+  "Who has experience in building Progressive Web Apps.": [
+    "PWA", "progressive web app"
+  ],
+  "List candidates with experience in SEO, PPC, and digital marketing.": [
+    "seo", "content creation", "search engine optimization", "digital marketing", "social media marketing" 
+  ],
+  "Who has managed large-scale B2B sales pipelines.": [
+    "sales pipeline", "inbound and outbound leads", "sales strategies", "sales executives", "client relationships"
+  ],
+  "List candidates who have worked on both React.js and Node.js for at least 4 years and have experience in microservices architecture.": [
+    "react.js", "node.js", "microservices", "architecture", "gateway", "service", "api", "docker", "experience"
+  ],
+  "Find candidates with experience in cybersecurity and cloud security, specifically in AWS security architecture and SOC operations.": [
+    "Cloudwatch","malware detection system employing machine learning", "secure and efficient user authentication", "Worked on Amazon Web Services (EC2, Route53, Cloudfront)"
+  ],
+  "Find candidates who started as Software Engineers, then became Tech Leads, and are now Engineering Managers with over 10 years of experience.": [
+    "software engineer", "tech lead", "engineering manager", "10 years experience", "career progression",
+    "leadership", "team management"
+  ],
+  "List candidates with experience in EdTech platforms and personalized learning algorithms.": [
+    "class scheduling", "edtech", "learning platform", "teaching effectiveness", "Sarthi Education", "educational website", "Online Live classrooms", "Online Academy", "school management system"
+  ],
+  "Find candidates with a Master’s degree in Computer Science and at least 3 years of experience in cloud security.": [
+    "master's", "computer", "science", "msc", "cloud", "security", "aws", "azure", "gcp", "experience"
+  ],
+  "Find candidates with a Ph.D.": [
+    "phd", "ph.d", "doctoral", "research", "thesis", "dissertation", "scientist"
+  ],
+  "List candidates with a CPA certification who also have experience in financial automation.": [
+    "cpa", "chartered", "accountant", "financial", "automation", "erp", "sap", "fico", "tools", "tally"
+  ],
+  "Find tech leaders who have scaled engineering teams from startup to enterprise level.": [
+    "scaled teams", "startup to enterprise", "engineering leadership", "tech head",
+    "team expansion", "cto", "vp engineering"
+  ],
+  "Find candidates who started as Software Engineers and later transitioned to Product Management roles with at least 3 years of experience as Product Managers.": [
+    "software engineer", "product manager", "career shift", "product ownership",
+    "3 years product", "product lifecycle", "role change"
+  ],
+  "DevOps related Query, Content+SEO related query.": [
+    "devops", "content+seo"
+  ],
+  "Candidates with experience in client-facing roles.": [
+    "meeting with client", "issues of client", "stakeholders", "technical support for end-users", "informing the passengers", "collaborated with clients", "middleman", "Deal hunting for US clients", "client engagement", "customer support", "approach with clients", "solutions to all clients", "messages of customers", "client's first point of contact", "primary point of contact", "customer satifaction", "led complex negotiations", "managing a set of dedicated clients", "high client satisfaction", "managed client relationships", "liasing with partners & secretaries", "global clients"
+  ]
+}

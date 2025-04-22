@@ -1,0 +1,2148 @@
+{
+  "Identify if the candidate has managed teams, led test automation initiatives, or conducted training sessions.": [
+    {
+      "resume": "Amit Saxena resume_name.json",
+      "answer": "Developed high performance cross functional teams through structured induction, knowledge mobilization, training, mentoring, and forecasting.",
+      "name": "Amit Saxena"
+    },
+    {
+      "resume": "Resume.json",
+      "answer": "Handled a team of 9 people includes tele callers, field executive, content writer, packaging people.",
+      "name": "Nishant Bakshi"
+    },
+    {
+      "resume": "Neha-Resume.json",
+      "answer": "Presently working with client’s team at offshore and ensured them with timely deliverables.",
+      "name": "Neha Joshi"
+    },
+    {
+      "resume": "Udit_Tanwar_-_Microsoft_365_Admin (3) 1.json",
+      "answer": "Worked as Team Lead and streamlined processes. Actively involved in day-to-day operations and performance management, ensuring KRA's were met, providing feedback to the team, and managing attendance and other parameters.",
+      "name": "UDIT TANWAR"
+    },
+    {
+      "resume": "Anurag Gupta Resume.json",
+      "answer": "Managed and coordinated placement tests and interviews of 50+ companies.",
+      "name": "ANURAG GUPTA"
+    },
+    {
+      "resume": "AakashYadav[3_0].json",
+      "answer": "Training clients and fellow professionals.",
+      "name": "Aakash Yadav"
+    },
+    {
+      "resume": "Vikash Sharma.json",
+      "answer": "Managed and mentored a team of 11 professionals, ensuring seamless collaboration and timely project delivery.",
+      "name": "Vikash Sharma"
+    },
+    {
+      "resume": "Shubham_Shrivastava_Resume.json",
+      "answer": "Led a team of 20 members ensuring risks were mitigated, and conflicts were resolved ensuring the team moved at a faster pace towards the targeted deliverables.",
+      "name": "SHUBHAM SHRIVASTAVA"
+    },
+    {
+      "resume": "Kuldeep Resume.json",
+      "answer": "Team coach.",
+      "name": "Kuldeep Singh"
+    },
+    {
+      "resume": "Rashmi Upase -2021.json",
+      "answer": "Proven ability in team management and customer relationship management.",
+      "name": "Rashmi Upase"
+    },
+    {
+      "resume": "Mohd.Saleem K_ShorthillsAi Resume.json",
+      "answer": "Managed a team of 4 catalogue associates, providing training and guidance.",
+      "name": "Mohd.Saleem K."
+    },
+    {
+      "resume": "UtkalSahoo_IIMUdaipur_Resume.json",
+      "answer": "Led 5 person cross-functional team to modernize legacy web app",
+      "name": "Utkal Sahoo"
+    },
+    {
+      "resume": "Naman Mathur CV.json",
+      "answer": "Led a team of three interns, including myself, to develop a real-time price estimation system.",
+      "name": "Naman Mathur"
+    },
+    {
+      "resume": "LakshmiPrasannaKarnam ._CV.json",
+      "answer": "Assumed leadership responsibilities in conducting team reviews and mentoring newcomers.",
+      "name": "Lakshmi Prasanna Karnam"
+    },
+    {
+      "resume": "Rajat Arora Resume.json",
+      "answer": "Led a team of 4 people to enhance the inhouse software to ease company search capabilities of three lacs companies for end users.",
+      "name": "Rajat Arora"
+    },
+    {
+      "resume": "Sona_Project Manager.json",
+      "answer": "Strong collaboration skills to work closely with cross-functional teams (development, product management, project management) and effectively communicate testing priorities, scope, and progress.",
+      "name": "Sona Grover"
+    },
+    {
+      "resume": "Resume - Neena Abraham.json",
+      "answer": "Identifying weakness of team members and planning training programs. Responsible for training new members joining the team.",
+      "name": "Neena Abraham"
+    },
+    {
+      "resume": "Dhruv Mulchandani resume.json",
+      "answer": "Conducting sessions for the team for better understanding of the various amendments.",
+      "name": "Dhruv Mulchandani"
+    },
+    {
+      "resume": "DebanjanBhattacharya[3_2].json",
+      "answer": "Managed activities of six-member Digital Client Files (DCF) testing team under CRC.",
+      "name": "Debanjan Bhattacharya"
+    },
+    {
+      "resume": "Resume Nilesh Gupta.json",
+      "answer": "Competently trained and developed team members on appropriate inventory control methods and order processes.",
+      "name": "Nilesh Gupta"
+    },
+    {
+      "resume": "AbhinavKumar[9y_0m].json",
+      "answer": "Led a team of seven Sales Development Representatives in executing LinkedIn's sales pipeline... Conducted performance reviews and one-on-one sessions to develop and mentor team members.",
+      "name": "Abhinav Kumar"
+    },
+    {
+      "resume": "Ullash Curriculum Vitae New PDF.json",
+      "answer": "Educated new hires on company policies and procedures by designing and developing training program.",
+      "name": "Ullash Kumar Barick"
+    },
+    {
+      "resume": "Palakpreet Kaur Resume.json",
+      "answer": "Led a team of students in managing activities of the Placement Cell.",
+      "name": "Palakpreet Kaur"
+    },
+    {
+      "resume": "Manjari Sharma -24R.json",
+      "answer": "Led training sessions aimed at educating team members on PEP identification, listing procedures, and Anti-Money Laundering (AML) compliance standards.",
+      "name": "Manjari Sharma"
+    },
+    {
+      "resume": "Naukri_PreetomKrBanerjee[7y_0m] (1).json",
+      "answer": "As a Professional Trainer teaching various Web languages and technologies.",
+      "name": "Preetom Kumar Banerjee"
+    },
+    {
+      "resume": "Iftekar_Ahmed_V2.json",
+      "answer": "Managed team of 30+ developers and Athlete Managers under the Operations and IT Division of SAI. Trained over 100+ global clients on optimum usage of Vantage Pulse.",
+      "name": "Iftekar Ahmed"
+    },
+    {
+      "resume": "MANEESH KUMAR AGARWAL - Resume 1.json",
+      "answer": "Managed a group of small team to meet the timeline in terms of planning and execution of the project.",
+      "name": "MANESSH KUMAR AGARWAL"
+    },
+    {
+      "resume": "ATUL_SHARMA.json",
+      "answer": "Presently working as the Senior Manager / Team Leader for the International Client managing a team of 6 for the process.",
+      "name": "Atul Sharma"
+    },
+    {
+      "resume": "Resume-Pooja-Kumari P.json",
+      "answer": "Led cross-functional teams to ensure seamless project execution.",
+      "name": "POOJA KUMARI"
+    },
+    {
+      "resume": "vishal-pathak.json",
+      "answer": "Hands-on experience in frontend and backend application development using PHP, Python and Java and in backend and javascript, JQuery, ReactJS in frontend. Expertise in MVC frameworks like Laravel, Django, Flask, Spring Boot and Servlets and customising open source solutions using CMS like Drupal, Moodle and Wordpress.",
+      "name": "Vishal Pathak"
+    },
+    {
+      "resume": "Priyatma Sharan.json",
+      "answer": "Responsible for mentoring resources technically and helping other QA Team Members.",
+      "name": "Priyatma Sharan"
+    },
+    {
+      "resume": "Honey Desai Resume.json",
+      "answer": "Responsible for owning the overall quality for all products by building and mentoring QA team & establishing standards and processes.",
+      "name": "HONEY P. DESAI"
+    },
+    {
+      "resume": "Resume_Pradeep_2021.json",
+      "answer": "Experienced in Team Management, Project Management, Project Estimation and Project Plan (MPP). Experience in training and teaching.",
+      "name": "Pradeep Kumar Rai"
+    },
+    {
+      "resume": "PRADEEP_JHA_Resume.json",
+      "answer": "Managed team of four Members.",
+      "name": "PRADEEP JHA"
+    },
+    {
+      "resume": "ANKUR_PRATAP_CV.json",
+      "answer": "Developed junior staff through targeted coaching and mentoring, improving capabilities and competencies of technical teams.",
+      "name": "ANKUR PRATAP"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "Managed teams in various roles, including as General Manager and Functional Head.",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Headed cross-functional task forces comprised of engineers and product managers, ensuring the successful delivery of client projects.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "MunnaKumar[4_0].json",
+      "answer": "Lead a team to build the project 'EngageTo'",
+      "name": "Munna Kumar"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "demonstrated by my successful leadership of a 50-member team through various complex projects.",
+      "name": "Sidak Singh"
+    },
+    {
+      "resume": "Sunil Sharma_CV1.json",
+      "answer": "I was able to deliver exceptional results in this position by leveraging my analytical skills, team management skills, excellent knowledge CRM system and through sales operation knowledge.",
+      "name": "Sunil Sharma"
+    },
+    {
+      "resume": "RAHUL KAIN 1.json",
+      "answer": "Supervise the data team and organize tasks to ensure efficiency. Provided training, task assignment, and strategic guidance to the team members to enhance their performance and productivity.",
+      "name": "RAHUL KAIN"
+    },
+    {
+      "resume": "Ankit Dhariwal Resume_2024.json",
+      "answer": "Manage a small team of two developers and QA.",
+      "name": "ANKIT DHARIWAL"
+    },
+    {
+      "resume": "Priya_Nawari_Data_Engineer (1).json",
+      "answer": "Mentored 3 junior data engineers including code reviews and conducted training in Git, Snowflake, deployment process, and CI/CD pipelines.",
+      "name": "Priya Nawari"
+    }
+  ],
+  "Identify API testing experience from the resume. Extract details on the tools, methodologies, and types of APIs tested (REST, SOAP, GraphQL). Provide an example of a project where API testing was implemented.": [
+    {
+      "resume": "VarunRustagi_Resume.json",
+      "answer": "Developed RESTful APIs in Java for a large-scale project and performed JUnit testing.",
+      "name": "Varun Rustagi"
+    },
+    {
+      "resume": "Vivek Patidar.json",
+      "answer": "Leveraged industry-standard tools for API testing and version control, efficiently resolving issues to maintain optimal functionality.",
+      "name": "Vivek Patidar"
+    },
+    {
+      "resume": "LakshmiPrasannaKarnam ._CV.json",
+      "answer": "Maintained automated testing for integration, API, UI, load, and performance tests. Played a pivotal role in implementing/maintaining automated test suites for integration tests, API tests, UI tests, and system tests.",
+      "name": "Lakshmi Prasanna Karnam"
+    },
+    {
+      "resume": "Priyatma Sharan.json",
+      "answer": "Extensive Work experience in API testing. Tools mentioned include Postman. No specific project example provided.",
+      "name": "Priyatma Sharan"
+    },
+    {
+      "resume": "Honey Desai Resume.json",
+      "answer": "This included integration, system and end-to-end testing with the application as a whole. Work with third party vendors/organizations to test API calls, REST/SOAP APIs, and JSON structures.",
+      "name": "HONEY P. DESAI"
+    },
+    {
+      "resume": "Gaurav_Singh_QA_Test_Engineer_Automation_Manual_Resume.json",
+      "answer": "Involved in API Testing for Cengage Learning using Postman and other tools.",
+      "name": "GAURAV SINGH"
+    },
+    {
+      "resume": "AsheeGupta[5y_8m].json",
+      "answer": "Good in Automation: Functional Testing, API Testing using Postman, Selenium with Java.",
+      "name": "Ashee Gupta"
+    }
+  ],
+  "List any work related to salary processing, tax deductions, employee benefits, and the payroll software they have used.": [
+    {
+      "resume": "Supriya Suri - Human Resource.json",
+      "answer": "Managed payroll for 250+ employees, ensuring compliance with tax regulations and timely disbursement.",
+      "name": "Supriya Suri"
+    },
+    {
+      "resume": "garima_CV (1).json",
+      "answer": "Managed payroll processing and ensured accurate and timely payments to employees.",
+      "name": "Garima"
+    },
+    {
+      "resume": "Resume Satyam Bhargav.json",
+      "answer": "Responsible for carrying out activities such as the partners monthly and quarterly distributions.",
+      "name": "Satyam Bhargav"
+    },{
+      "resume":"CA Anmol Chaudhary.json",
+      "answer":"Tax, Company & GST Audits",
+      "name":"Anmol Chaudhary"
+    }
+  ],
+  "Retrieve candidates who have experience in handling employee grievances, workplace conflicts, or legal compliance issues.": [
+    {
+      "resume": "garima_CV (1).json",
+      "answer": "Grievance handling and employee engagement.",
+      "name": "Garima"
+    },
+    {
+      "resume": "Rajat Arora Resume.json",
+      "answer": "Scoped, devised, tested and troubleshooted the grievance system of Apprenticeship portal.",
+      "name": "Rajat Arora"
+    },
+    {
+      "resume": "Resume Nilesh Gupta.json",
+      "answer": "Ensuring customer satisfaction by addressing their demands/grievances regarding schedule of ship dates, order acknowledgments and informing of any delays, thus ensuring long term customer loyalty.",
+      "name": "Nilesh Gupta"
+    }
+  ],
+  "Find candidates with experience in developing HR policies and ensuring compliance with labor laws.": [
+    {
+      "resume": "Supriya Suri - Human Resource.json",
+      "answer": "Established the HR function from scratch, including policy development and implementation.",
+      "name": "Supriya Suri"
+    },
+    {
+      "resume": "garima_CV (1).json",
+      "answer": "Developed and implemented an office policy manual that standardized procedures and improved operational efficiency.",
+      "name": "Garima"
+    }
+  ],
+  "Find candidates whose latest job title is significantly different from their first job title, indicating a career shift. Include job titles, company names, and transition years.": [
+    {
+      "resume": "Amit Saxena resume_name.json",
+      "answer": "Vice President Engineering at Mynd Integrated Solutions, Senior Solutions Architect at Global Logic, India.",
+      "name": "Amit Saxena"
+    },
+    {
+      "resume": "Neha-Resume.json",
+      "answer": "Manager – UI/UX at Shorthills Tech Pvt. Ltd. (Dec 2020 – Present), Sr. Graphic Designer at Planet Web Solution Pvt. Ltd. (December 2006 – March 2009)",
+      "name": "Neha Joshi"
+    },
+    {
+      "resume": "Net Profile- Ankit kumar Gupta.json",
+      "answer": {
+        "latest_job_title": "Principal Software Engineer",
+        "first_job_title": "Senior System Engineer",
+        "company_names": [
+          "Hays Plc.",
+          "Infosys"
+        ],
+        "transition_years": [
+          "2021",
+          "2014"
+        ]
+      },
+      "name": "Ankit Gupta"
+    },
+    {
+      "resume": "Shubham_Shrivastava_Resume.json",
+      "answer": "Project Manager at Airlinq (Mar 2020 – Present) and Application Development Analyst at Accenture Solutions Ltd (Aug 2014 – Apr 2017)",
+      "name": "SHUBHAM SHRIVASTAVA"
+    },
+    {
+      "resume": "Rashmi Upase -2021.json",
+      "answer": "Latest job title: Asst. Manager SCM at KMC OILTOOLS INDIS PVT. LTD; First job title: Proposal Specialist at Halliburton Offshore Services Inc. (1999 till March 2011)",
+      "name": "Rashmi Upase"
+    },
+    {
+      "resume": "Sona_Project Manager.json",
+      "answer": "Latest job title: Project Manager / Test Manager at Tata Consultancy Services; First job title: Setup Configuration Analyst at AON Hewitt Associate.",
+      "name": "Sona Grover"
+    },
+    {
+      "resume": "DebanjanBhattacharya[3_2].json",
+      "answer": "Product Manager at CarWale (2020-05 - Current) and Assistant System Engineer at Tata Consultancy Services (2016-04 - 2018-05).",
+      "name": "Debanjan Bhattacharya"
+    },
+    {
+      "resume": "AbhinavKumar[9y_0m].json",
+      "answer": "Latest job title: Demand Generation Manager-B2B at Concentrix; First job title: Sales Manager at Edmilez Technology Private Limited.",
+      "name": "Abhinav Kumar"
+    },
+    {
+      "resume": "Naukri_AtulKumar.json",
+      "answer": "Latest job title: Sales Development Representative at Talent Solution Advisor, Concentrix for LinkedIn; First job title: Business Development Executive at KFG Pvt Ltd.",
+      "name": "Atul Kumar"
+    },
+    {
+      "resume": "Ullash Curriculum Vitae New PDF.json",
+      "answer": "Associate (Operations) at Eminenture Pvt. Ltd. (2020-2023) is significantly different from Customer Service Associate at Travel Retail Services Pvt. Ltd. (2018-2020).",
+      "name": "Ullash Kumar Barick"
+    },
+    {
+      "resume": "Nabaneet Pradhan (Resume).json",
+      "answer": {
+        "latest_job_title": "Data Analyst",
+        "first_job_title": "AME",
+        "company_names": [
+          "OYO",
+          "Omics International"
+        ],
+        "transition_years": [
+          "2021",
+          "2017"
+        ]
+      },
+      "name": "Nabaneet Pradhan"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "General Manager at Motion Education Pvt Ltd (Aug 2020 - Present) and Developer at Infosys (June 2006 - May 2009)",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Lead Solution Architect at ShortHills AI, Solution Architect at EduPristine, Technical Lead at 3Pillar Global, Software Engineer at Spect Solutions, Software Engineer at IndiaOutsources.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "MunnaKumar[4_0].json",
+      "answer": {
+        "latest_job_title": "Software Developer",
+        "first_job_title": "Associate Software Engineer",
+        "company_names": [
+          "Karmany Software",
+          "Ahex Technology"
+        ],
+        "transition_years": "2019 - 2016"
+      },
+      "name": "Munna Kumar"
+    },
+    {
+      "resume": "Devanshu CV.json",
+      "answer": "Technology Risk Consultant at Deloitte (July 2012 — July 2015) to Senior Software Engineer-II at LocktheDeal (July 2018 — March 2022)",
+      "name": "Devanshu Kaushik"
+    }
+  ],
+  "Find candidates who started in a non-technical role and later moved to a technical role.": [
+    {
+      "resume": "Naukri_PreetomKrBanerjee[7y_0m] (1).json",
+      "answer": "Started as an AutoCAD Designer and later became a PHP Developer.",
+      "name": "Preetom Kumar Banerjee"
+    }
+  ],
+  "List out the candidates who started as engineers or developers but later moved to management, marketing, or HR roles.": [
+    {
+      "resume": "Amit Saxena resume_name.json",
+      "answer": "Vice President Engineering at Mynd Integrated Solutions, Director Technology at Nagarro, India.",
+      "name": "Amit Saxena"
+    },
+    {
+      "resume": "Neha-Resume.json",
+      "answer": "Mobile UI Designer at Spice Labs Pvt. Ltd. (August 2009 - July 2012) to Manager - UX & Product Design at Infotachus Pvt. Ltd. (May 2016 – Oct 2019)",
+      "name": "Neha Joshi"
+    },
+    {
+      "resume": "Vikash Sharma.json",
+      "answer": "Data Engineering Manager with 13 years of extensive experience in data exploration, processing, and modelling.",
+      "name": "Vikash Sharma"
+    },
+    {
+      "resume": "Shubham_Shrivastava_Resume.json",
+      "answer": "Started as Application Development Analyst at Accenture Solutions Ltd and later became Project Manager at Airlinq.",
+      "name": "SHUBHAM SHRIVASTAVA"
+    },
+    {
+      "resume": "Sona_Project Manager.json",
+      "answer": "Started as a Mainframe Developer at IBM India Pvt Limited and later became Project Manager / Test Manager at Tata Consultancy Services.",
+      "name": "Sona Grover"
+    },
+    {
+      "resume": "DebanjanBhattacharya[3_2].json",
+      "answer": "Started as Assistant System Engineer at Tata Consultancy Services and later became Product Manager at CarWale.",
+      "name": "Debanjan Bhattacharya"
+    },
+    {
+      "resume": "Adarsh Adwait CV.json",
+      "answer": "Started as a System Engineer at Tata Consultancy Services and later moved to a Strategic Account Executive role at Browserstack.",
+      "name": "ADARSH ADWAIT"
+    },
+    {
+      "resume": "MdAmir _1.1 resume.json",
+      "answer": "Assistant IT Manager with 7+ years of experience in IT support infrastructure management system.",
+      "name": "MD AMIR HASAN ANSARI"
+    },
+    {
+      "resume": "Iftekar_Ahmed_V2.json",
+      "answer": "Started as Project Associate and later became Product Manager | Tech Consultant.",
+      "name": "Iftekar Ahmed"
+    },
+    {
+      "resume": "Resume_Pradeep_2021.json",
+      "answer": "Tech Lead / CTO at Creataum, Team Lead at HealthCubed India Pvt. Ltd.",
+      "name": "Pradeep Kumar Rai"
+    },
+    {
+      "resume": "ANKUR_PRATAP_CV.json",
+      "answer": "Technical Lead at Aristocrat Technologies, Senior Software Consultant at Ovalelabs Pvt. Ltd., R & D Engineer at Nokia Networks Pvt. Ltd.",
+      "name": "ANKUR PRATAP"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "Started as Developer at Infosys and later became General Manager at Motion Education Pvt Ltd.",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Headed cross-functional task forces comprised of engineers and product managers, ensuring the successful delivery of client projects.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "started as Software QA Engineer and later became Senior Product Manager.",
+      "name": "Sidak Singh"
+    }
+  ],
+  "Find candidates who had a career gap of at least 2 years and returned in a different field.": [],
+  "Candidates who have at least 2 years of experience with Python and have worked with Django and REST APIs.": [
+    {
+      "resume": "BhartiSaini_SDE_3_YoE.json",
+      "answer": "I possess a thorough understanding of the technical intricacies across the application development lifecycle, including... My technical expertise encompasses Python, Django, MySQL and MongoDB... I excel in the creation of robust Restful APIs using Django, MongoDB and SQL databases.",
+      "name": "Bharti Saini"
+    },
+    {
+      "resume": "Shamshad.json",
+      "answer": "Backend developer with expertise in GenAI, Django, and data automation.",
+      "name": "Shamshad"
+    },
+    {
+      "resume": "Rajneesh_V2.json",
+      "answer": "Experienced Software Developer with 4 years of expertise in building scalable applications and integrating advanced technologies. Proficient in Python (FASTAPI, Django, Flask)",
+      "name": "Rajneesh"
+    },
+    {
+      "resume": "MANEESH KUMAR AGARWAL - Resume 1.json",
+      "answer": "With over 6 years of experience in software development, I excel in both backend and frontend development, specializing in Python (Django, Django Rest Framework).",
+      "name": "MANESSH KUMAR AGARWAL"
+    },
+    {
+      "resume": "Manish Maurya _CV.json",
+      "answer": "Skills include Python, Django, and RESTful API.",
+      "name": "Manish Maurya"
+    },
+    {
+      "resume": "ShubhamKambojResume.json",
+      "answer": "Experience with Python and Django is indicated in the skills section, but there is no explicit mention of REST APIs.",
+      "name": "Shubham Kamboj"
+    }
+  ],
+  "Candidates who have held a .NET Developer role and have Python and Machine Learning listed in their skills.": [
+    {
+      "resume": "Rajat Arora Resume.json",
+      "answer": "Held a .NET Developer role and has Python listed in skills.",
+      "name": "Rajat Arora"
+    }
+  ],
+  "Find candidates who have at least 4 years of React.js experience and have mentored a team of 5 or more.": [],
+  "Filter out the number of candidates with experience in prompt engineering.": [
+    {
+      "resume": "Ikjot Singh.json",
+      "answer": "Utilized Langchain for prompt engineering, creating RAG chain and few-shot prompting.",
+      "name": "Ikjot Singh"
+    },
+    {
+      "resume": "Vishnu resume (11).json",
+      "answer": "Implemented generative AI techniques and prompt engineering to process and prioritize emails from clients, partners, and peers.",
+      "name": "Vishnu Pillai"
+    },
+    {
+      "resume": "Minal_Mahala_Resume_ .json",
+      "answer": "Self Learning: Finetuned LLM Meta’s Llama-2 using PEFT concept LORA.",
+      "name": "Minal Mahala"
+    },
+    {
+      "resume": "Harsh Gupta.json",
+      "answer": "Experience in Prompt Engg",
+      "name": "Harsh Gupta"
+    },
+    {
+      "resume": "Naman Mathur CV.json",
+      "answer": "Developed SDKs (plugins) for Pinecone and OpenAI, tailored specifically for seamless integration within ToolJet, enhancing the platform’s capabilities and enabling efficient use of advanced AI and database functionalities.",
+      "name": "Naman Mathur"
+    },
+    {
+      "resume": "Anirudh Kansal_CV1.json",
+      "answer": "Specialized in building AI Conversational Multi Agents and Chatbots powered by RAG. Skilled in developing Q&A Systems for legal data and employing various prompting techniques such as CoT, CoD, and React.",
+      "name": "Anirudh Kansal"
+    },
+    {
+      "resume": "Bajrang Lal_V2.json",
+      "answer": "Crafted precise prompts to instruct LLMs, optimizing data retrieval accuracy and minimizing errors.",
+      "name": "Bajrang Lal"
+    },
+    {
+      "resume": "Shamshad.json",
+      "answer": "Experience in prompt engineering.",
+      "name": "Shamshad"
+    },
+    {
+      "resume": "Sanjam_Bedi_CV_updated.json",
+      "answer": "Engaged in thorough evaluations of the LLM application to ensure optimal performance and accuracy.",
+      "name": "Sanjam Kaur Bedi"
+    },
+    {
+      "resume": "Ashish Kumar Resume.json",
+      "answer": "Developed effective prompts to enhance language model performance and accuracy.",
+      "name": "Ashish Kumar"
+    }
+  ],
+  "Filter out the number of candidates with experience in admin and event management.": [
+    {
+      "resume": "Supriya Suri - Human Resource.json",
+      "answer": "Organized 10+ company events every year, fostering a positive work environment and enhancing employee engagement.",
+      "name": "Supriya Suri"
+    },
+    {
+      "resume": "Resume.json",
+      "answer": "Worked on online promotional activities, Listing work of new health packages online.",
+      "name": "Nishant Bakshi"
+    },
+    {
+      "resume": "Anurag Gupta Resume.json",
+      "answer": "Managed the Admin and Azure portal.",
+      "name": "ANURAG GUPTA"
+    },
+    {
+      "resume": "garima_CV (1).json",
+      "answer": "Experience as HR Generalist cum Admin.",
+      "name": "Garima"
+    },
+    {
+      "resume": "Seema Sethi Updated cv.json",
+      "answer": "Taking care of admin work of newly joined staff.",
+      "name": "Seema Sethi"
+    },
+    {
+      "resume": "Resume Mukund Sharma.json",
+      "answer": "Experienced Administrative professional well-versed in clerical and records management functions.",
+      "name": "MUKUND SHARMA"
+    },
+    {
+      "resume": "NIT UTR - Aryaman Jaiswal (1).json",
+      "answer": "Organised and managed various events and competitions that took place in the college.",
+      "name": "Aryaman Jaiswal"
+    },
+    {
+      "resume": "Ravleen CV.json",
+      "answer": "Worked closely with the primary coordinator to organize and carry out club events, including brainstorming event concepts, establishing objectives, and making critical decisions. Supervised extensive workshops, seminars, coding competitions and numerous technical events.",
+      "name": "Ravleen Kaur"
+    },
+       {
+      "resume": "Hemant Gupta.json",
+      "answer": "Event Manager & Sports Secretary at Hostel Sports Fest & Hostel Night, TIET-Patiala",
+      "name": "Hemant Gupta"
+    },
+    {
+      "resume": "Hamant Resume.json",
+      "answer": "Event Manager & Sports Secretary, Hostel Sports Fest & Hostel Night, TIET-Patiala",
+      "name": "Hemant Gupta"
+    }
+  ],
+  "Find candidates who have worked on a CRM project.": [
+    {
+      "resume": "Amit Saxena resume_name.json",
+      "answer": "Enhanced performance of CRM platform of US Client by 20% applying dynamic profiling and selective caching.",
+      "name": "Amit Saxena"
+    },
+    {
+      "resume": "AakashYadav[3_0].json",
+      "answer": "Made a plug in play CRM analytics product for company which provided insights regarding sales, profit, promotion and target achievements.",
+      "name": "Aakash Yadav"
+    },
+    {
+      "resume": "Rashmi Upase -2021.json",
+      "answer": "Focal point to Maintain CRM for functional PSL/PSL’s.",
+      "name": "Rashmi Upase"
+    },
+    {
+      "resume": "Naukri_AtulKumar.json",
+      "answer": "Utilized Salesforce to perform detailed profiling of 50 company accounts daily, enhancing data accuracy and strategic outreach.",
+      "name": "Atul Kumar"
+    },
+    {
+      "resume": "vishal-pathak.json",
+      "answer": "CrediHealthCare: Appointment management system to ease the accessibility among the patients, hospitals and individual doctors.",
+      "name": "Vishal Pathak"
+    },
+    {
+      "resume": "PRADEEP_JHA_Resume.json",
+      "answer": "Utilized CRM systems (Salesforce, HubSpot) to log sales activities and customer interactions.",
+      "name": "PRADEEP JHA"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "Responsible for complete CRM strategy and execution in the role of Manager at Resonance Eduventures Limited.",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "In charge of overseeing AWS Infrastructure, driving product innovation, and managing core systems such as the online marketplace, CRM, ERP, reporting dashboards, and marketing tools.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "Sunil Sharma_CV1.json",
+      "answer": "Led a key project to delivery a unique solution for our revenue recognition, operational control issues related to student attendance tracking.",
+      "name": "Sunil Sharma"
+    },
+    {
+      "resume": "Sunil Sharma_CV2.json",
+      "answer": "Led a key project to deliver a unique solution for our revenue recognition, and operational control issues related to student attendance tracking. CRM and ERP process roll-out for automated payment capture and GST-compliant receipts.",
+      "name": "Sunil Sharma"
+    }
+  ],
+  "Find candidates who have worked on CRM or built a CRM from scratch.": [
+    {
+      "resume": "AakashYadav[3_0].json",
+      "answer": "Made a plug in play CRM analytics product for company which provided insights regarding sales, profit, promotion and target achievements.",
+      "name": "Aakash Yadav"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "A customized integrated CRM and Contact Support solution for health care services.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "Sunil Sharma_CV1.json",
+      "answer": "Worked directly with CTO on LMS, Website layout design, CRM.",
+      "name": "Sunil Sharma"
+    },
+    {
+      "resume": "Sunil Sharma_CV2.json",
+      "answer": "Worked closely with the IT Development team to shape our current CRM incorporating a lot of system-based controls to ensure data sanctity and analytics-ready reporting.",
+      "name": "Sunil Sharma"
+    }
+  ],
+  "Who knows PowerBI with SQL and has experience working with R programming language.": [
+    {
+      "resume": "Anurag Gupta Resume.json",
+      "answer": "Using Power BI, Using SQL",
+      "name": "ANURAG GUPTA"
+    },
+    {
+      "resume": "AakashYadav[3_0].json",
+      "answer": "Designed, developed and implemented innovative Power BI dashboards and reports. Conversant with Power BI, DAX and SSAS (SQL Server Analysis Services).",
+      "name": "Aakash Yadav"
+    },
+    {
+      "resume": "DEEPALI_JENA_RESUME_1Yr.json",
+      "answer": "Power BI - Dashboard, SQL",
+      "name": "Deepali Jena"
+    },
+    {
+      "resume": "Nabaneet Pradhan (Resume).json",
+      "answer": "Skilled in Power BI, SQL, and R.",
+      "name": "Nabaneet Pradhan"
+    },
+    {
+      "resume": "MANEESH KUMAR AGARWAL - Resume 1.json",
+      "answer": "Proficient in AWS (EC2, Lambda, RDS, CloudFront, Route53), Azure Services (Synapse Analytics, Microsoft Fabric, ADLS Gen2, Data Factory), and reporting tools like PowerBI.",
+      "name": "MANESSH KUMAR AGARWAL"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "Exam 778: Analyzing and Visualizing Data with Power BI.",
+      "name": "Sidak Singh"
+    },
+    {
+      "resume": "Rooshna Resume 2024.json",
+      "answer": "Skills include Power BI and R.",
+      "name": "Rooshna Hassan"
+    }
+  ],
+  "List the people who are from Gurgaon location.": [
+    {
+      "resume": "Supriya Suri - Human Resource.json",
+      "answer": "Gurgaon",
+      "name": "Supriya Suri"
+    },
+    {
+      "resume": "Resume.json",
+      "answer": "Nishant Bakshi, location: C-190, Second Floor, Mayfield Garden, Sec 50, Gurgaon-122018",
+      "name": "Nishant Bakshi"
+    },
+    {
+      "resume": "Neha-Resume.json",
+      "answer": "Gurugram",
+      "name": "Neha Joshi"
+    },
+    {
+      "resume": "Apurva_Agrawal_latest.json",
+      "answer": "SDE2 at Expedia, Gurgaon",
+      "name": "Apurva Agrawal"
+    },
+    {
+      "resume": "Amit Bishnoi Resume.json",
+      "answer": "Amit Bishnoi is located in Gurgaon, IN.",
+      "name": "Amit Bishnoi"
+    },
+    {
+      "resume": "Vishnu resume (11).json",
+      "answer": "Vishnu Pillai is located in Gurgaon, Haryana.",
+      "name": "Vishnu Pillai"
+    },
+    {
+      "resume": "Ankit Saini resume.json",
+      "answer": "Anklt Saini is located in Gurgaon.",
+      "name": "Anklt Saini"
+    },
+    {
+      "resume": "Net Profile- Ankit kumar Gupta.json",
+      "answer": "Ankit Gupta is located in Sector 52, Gurugram.",
+      "name": "Ankit Gupta"
+    },
+    {
+      "resume": "Teena Sidhar's Resume-compressed.json",
+      "answer": "Teena Sidhard is located in Gurgaon, Haryana.",
+      "name": "Teena Sidhard"
+    },
+    {
+      "resume": "VAIBHAVI Resume.json",
+      "answer": "Research Associate at Short Hills Tech Pvt. Ltd., Gurgaon",
+      "name": "Vaibhavi Sharma"
+    },
+    {
+      "resume": "Adarsh Adwait CV.json",
+      "answer": "Adarsh Adwait is located in Gurugram, Haryana, India.",
+      "name": "ADARSH ADWAIT"
+    },
+    {
+      "resume": "Manmeet Kaur CV.json",
+      "answer": "GURGAON, India",
+      "name": "MANMEET KAUR"
+    },
+    {
+      "resume": "Resume  - Sakshi Bhumbla 1.json",
+      "answer": "Location: Gurgaon, India",
+      "name": "Sakshi Bhumbla"
+    },
+    {
+      "resume": "Resume Nilesh Gupta.json",
+      "answer": "Nilesh Gupta, located in Gurgaon.",
+      "name": "Nilesh Gupta"
+    },
+    {
+      "resume": "Manjari Sharma -24R.json",
+      "answer": "Gurugram",
+      "name": "Manjari Sharma"
+    },
+    {
+      "resume": "Dhruv Gupta.json",
+      "answer": "Location: Gurugram",
+      "name": "DHRUV GUPTA"
+    },
+    {
+      "resume": "Resume-Pooja-Kumari P.json",
+      "answer": "Gurugram, Haryana",
+      "name": "POOJA KUMARI"
+    },
+    {
+      "resume": "Kunal Kumar CV.json",
+      "answer": "Location: Gurugram",
+      "name": "Kunal Kumar"
+    },
+    {
+      "resume": "Aman Bhatt CV.json",
+      "answer": "Gurgaon, Haryana",
+      "name": "Aman Bhatt"
+    },
+    {
+      "resume": "Kavita_Teekas_CV.json",
+      "answer": "Kavita Teekas is located in Gurgaon.",
+      "name": "Kavita Teekas"
+    },
+    {
+      "resume": "Amit Saini Updated Resume.json",
+      "answer": "H.No. 205/10, 8ᵗʰ Biswa, Garhi Mohallha Gurgaon Village, Gurgaon (Haryana)- 122001",
+      "name": "Amit Saini"
+    },
+    {
+      "resume": "PRADEEP_JHA_Resume.json",
+      "answer": "Gurgaon, India",
+      "name": "PRADEEP JHA"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Lead Solution Architect at ShortHills AI, location: Gurugram.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "Gurugram, Haryana, India",
+      "name": "Sidak Singh"
+    },
+    {
+      "resume": "CA Anmol Chaudhary.json",
+      "answer": "Gurgaon",
+      "name": "Anmol Chaudhary"
+    },
+    {
+      "resume": "Devanshu CV.json",
+      "answer": "Devanshu Kaushik, Gurgaon, India",
+      "name": "Devanshu Kaushik"
+    },
+    {
+      "resume": "Arpit SINGH CV.json",
+      "answer": "HOUSE NO. 98, SECTOR 15, PART 1, GURUGRAM, 122001",
+      "name": "Arpit Singh"
+    },
+    {
+      "resume": "Ashish kaushik resume..json",
+      "answer": "Gurgaon, India",
+      "name": "Ashish Kaushik"
+    },
+    {
+      "resume": "ShubhamKambojResume.json",
+      "answer": "Backend Engineer at Fixcraft, Gurgaon, India.",
+      "name": "Shubham Kamboj"
+    },
+    {
+      "resume": "Ashish Kumar Resume.json",
+      "answer": "Gurugram",
+      "name": "Ashish Kumar"
+    },
+    {
+      "resume": "shubham Tiwari _CV.json",
+      "answer": "Location: Gurgaon",
+      "name": "SHUBHAM TIWARI"
+    }
+  ],
+  "Do we have any candidate who has worked with the e-commerce industry, Amazon listing, or secondary research.": [
+    {
+      "resume": "Amit Saxena resume_name.json",
+      "answer": "Designed and developed an end to end web site for an e commerce client.",
+      "name": "Amit Saxena"
+    },
+    {
+      "resume": "Resume_Priyanshu_20146 (1).json",
+      "answer": "Implemented e-commerce capabilities for stone sales, resulting in a 50% increase in online transactions and enhanced customer engagement.",
+      "name": "Priyanshu Kumar Singh"
+    },
+    {
+      "resume": "Resume.json",
+      "answer": "Good knowledge of Amazon vendor central, seller central, Amazon.com, Amazon.in, Amazon.ca, Amazon.co.uk, Walmart, Flipkart, Paytm marketplaces & others.",
+      "name": "Nishant Bakshi"
+    },
+    {
+      "resume": "Resume_Nilofer.json",
+      "answer": "A Highly focused Research Analyst with over Two years of specialized experience in Technology research, Market Research, and Patent Analysis across Life sciences, Pharmaceuticals, Consumer Health, and Cross domains.",
+      "name": "NILOFER BANO"
+    },
+    {
+      "resume": "Apurva_Agrawal_latest.json",
+      "answer": "Porting Amazon App for Tizen OS.",
+      "name": "Apurva Agrawal"
+    },
+    {
+      "resume": "Rishabh_Resume.json",
+      "answer": "Developed loosely coupled e-commerce web application in collaboration with batch mate who actively worked on frontend development.",
+      "name": "Rishabh Kumar"
+    },
+    {
+      "resume": "Mohd Owais_ CV.json",
+      "answer": "Partnered with B2B and B2C brands to ideate, create, and execute loyalty initiatives on the Paytm platform.",
+      "name": "MOHD OWAIS"
+    },
+    {
+      "resume": "Chanderveer Singh.json",
+      "answer": "Created a comprehensive MERN E-commerce website for shoe enthusiasts.",
+      "name": "CHANDERVEER SINGH CHAUHAN"
+    },
+    {
+      "resume": "Himanshu-CV.json",
+      "answer": "Experience in creating e-commerce websites from scratch using latest technologies.",
+      "name": "Not Provided"
+    },
+    {
+      "resume": "VarunRustagi_Resume.json",
+      "answer": "Developed RESTful APIs in Java for a large-scale project at Paisabazaar.com.",
+      "name": "Varun Rustagi"
+    },
+    {
+      "resume": "Hilalahmadwar[2y_0m].json",
+      "answer": "Engineering graduate with over 1.6 year of experience in primary and secondary research",
+      "name": "HILAL AHMAD WAR"
+    },
+    {
+      "resume": "Sanskar's Resume.json",
+      "answer": "Build a Amazon Home Page clone using React.js.",
+      "name": "Sanskar Tanwar"
+    },
+    {
+      "resume": "Shubham_Shrivastava_Resume.json",
+      "answer": "Experienced Project Manager with 8+ years in E-commerce.",
+      "name": "SHUBHAM SHRIVASTAVA"
+    },
+    {
+      "resume": "Kuldeep Resume.json",
+      "answer": "Coupon hunting for US merchants from affiliate market, competitors and merchant page.",
+      "name": "Kuldeep Singh"
+    },
+    {
+      "resume": "Sehajpreet CV.json",
+      "answer": "Checking Content, Doing Quality check for amazon product listing and product page",
+      "name": "SEHAJ PREET SINGH"
+    },
+    {
+      "resume": "Alok_Kaswan.json",
+      "answer": "Engaged in captivating work process for attracting more US Web Traffic and hence, generating maximum revenue.",
+      "name": "Alok Kaswan"
+    },
+    {
+      "resume": "Mohd.Saleem K_ShorthillsAi Resume.json",
+      "answer": "Dedicated and detail-oriented Catalogue Analyst with 3 years of experience overseeing the creation and maintenance of product listings for a catalogue.",
+      "name": "Mohd.Saleem K."
+    },
+    {
+      "resume": "Gautam Upadhyay.json",
+      "answer": "Developed a responsive and user-friendly e-commerce website for Kanak Clothing using the MERN stack, resulting in a 30% improvement in customer engagement.",
+      "name": "GAUTAM UPADHYAY"
+    },
+    {
+      "resume": "LakshmiPrasannaKarnam ._CV.json",
+      "answer": "Worked at Chegg, which is an e-commerce platform for educational resources.",
+      "name": "Lakshmi Prasanna Karnam"
+    },
+    {
+      "resume": "Teena Sidhar's Resume-compressed.json",
+      "answer": "Developed and implemented promotion plans for markets in South Korea, UAE, and the US.",
+      "name": "Teena Sidhard"
+    },
+    {
+      "resume": "Seema Sethi Updated cv.json",
+      "answer": "Worked as a Customer Support Executive at Everstylish.com.",
+      "name": "Seema Sethi"
+    },
+    {
+      "resume": "Dhruv Mulchandani resume.json",
+      "answer": "Worked as a Business Analyst at Amazon.",
+      "name": "Dhruv Mulchandani"
+    },
+    {
+      "resume": "Rajneesh_Resume_2021.json",
+      "answer": "Developed clones of multiple websites during my training period in Milestone OS.",
+      "name": "Rajneesh Singh"
+    },
+    {
+      "resume": "Diksha Sashwat CV.json",
+      "answer": "Developed a comprehensive e-commerce website aimed at enhancing online shopping experiences for users.",
+      "name": "Diksha"
+    },
+    {
+      "resume": "Manmeet Kaur CV.json",
+      "answer": "Data Annotation, Kanua Data Extraction Category Management for e-commerce. Primary and Secondary Web Research.",
+      "name": "MANMEET KAUR"
+    },
+    {
+      "resume": "Ravleen CV.json",
+      "answer": "MERN Stack web application - An E-commerce website developed using Bootstrap4, CSS3, HTML5, NodeJS, ExpressJS and ReactJS, which creates a one stop shopping experience.",
+      "name": "Ravleen Kaur"
+    },
+    {
+      "resume": "Nabaneet Pradhan (Resume).json",
+      "answer": "Experienced Analyst with a demonstrated history of working in the civil engineering, research & analytics, real estate and hospitality industry.",
+      "name": "Nabaneet Pradhan"
+    },
+    {
+      "resume": "Manjari Sharma -24R.json",
+      "answer": "Worked on Database Management Services Department. Possess key skills in secondary research across various projects spanning FMCG, IT, Education, Operations, and International Management.",
+      "name": "Manjari Sharma"
+    },
+    {
+      "resume": "Shamshad.json",
+      "answer": "Worked on a project titled 'US based E-Commerce'.",
+      "name": "Shamshad"
+    },
+    {
+      "resume": "Harsh_Sharma_CV.json",
+      "answer": "Support Agent (Meesho Supplier Support)",
+      "name": "Harsh Sharma"
+    },
+    {
+      "resume": "Amit Kumar.json",
+      "answer": "Developed a full-stack e-commerce app using React.js, incorporating responsive design, user authentication, and dynamic content rendering for an optimized user experience.",
+      "name": "Amit Kumar"
+    },
+    {
+      "resume": "Jitin Kumar Vats_SHT Resume 2.json",
+      "answer": "Working experience in E-commerce, Finance and Insurance sector",
+      "name": "Jitin Kumar Vats"
+    },
+    {
+      "resume": "Rajneesh_V2.json",
+      "answer": "Built a user-friendly React Application for managing Product Release Pipelines. Improved collaboration among stakeholders for efficient product releases.",
+      "name": "Rajneesh"
+    },
+    {
+      "resume": "ATUL_SHARMA.json",
+      "answer": "A Marketing & Sales professional with about 6 years of experience with proven success in the field of Education Industry.",
+      "name": "Atul Sharma"
+    },
+    {
+      "resume": "Kunal Kumar CV.json",
+      "answer": "Analysed the data and break down the problems. Prepared Dashboards to get some useful insights in Excel.",
+      "name": "Kunal Kumar"
+    },
+    {
+      "resume": "Priyatma Sharan.json",
+      "answer": "DermPRO is the e-commerce and Marketing Platform built for aesthetics providers.",
+      "name": "Priyatma Sharan"
+    },
+    {
+      "resume": "Kavita_Teekas_CV.json",
+      "answer": "Identified and successfully delivered projects of Mobile and E-Commerce Web Application valued at over INR 11+ MN.",
+      "name": "Kavita Teekas"
+    },
+    {
+      "resume": "Resume_Pradeep_2021.json",
+      "answer": "Experience in E-Commerce and developing web portals and mobile applications for Titan Eye Plus.",
+      "name": "Pradeep Kumar Rai"
+    },
+    {
+      "resume": "Gaurav_Singh_QA_Test_Engineer_Automation_Manual_Resume.json",
+      "answer": "Worked as both manual and automation tester for testing of the Walmart e-commerce website end to end.",
+      "name": "GAURAV SINGH"
+    },
+    {
+      "resume": "Yashdeep CV.json",
+      "answer": "Gained practical expertise in harnessing Power BI for extracting valuable insights from extensive datasets.",
+      "name": "Yashdeep Singh"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Worked in various domains, including E-commerce.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "ML/AI/LLM-based e-commerce product built by 'Shorthills.ai', to simplify the shopping experience and save our customers time.",
+      "name": "Sidak Singh"
+    },
+    {
+      "resume": "GNDEC - Upneet Kaur 1 (1).json",
+      "answer": "Created a dynamic website that provides the facility to order food online.",
+      "name": "UPNEET KAUR"
+    },
+    {
+      "resume": "Devanshu CV.json",
+      "answer": "Experienced in implementing solutions across SaaS, eCommerce, and tech-risk consulting domains.",
+      "name": "Devanshu Kaushik"
+    },
+    {
+      "resume": "RAHUL KAIN 1.json",
+      "answer": "Enthusiastic Research & Data Specialist with 7+ years’ experience, and a demonstrated history of working in Information Technology & Services, EXIM, Transportation & Logistics, Comics, Collectibles, Human Resources and P&C Insurance – including Auto & Workers Compensation Industries.",
+      "name": "RAHUL KAIN"
+    },
+    {
+      "resume": "Varun Upadhyay.json",
+      "answer": "Increased robotics product sales by 40% through the development of a robust e-commerce platform.",
+      "name": "Varun Upadhyay"
+    },
+    {
+      "resume": "Chaitanya - Tandon - Resume.json",
+      "answer": "Experience in the e-commerce industry at Ecom Express.",
+      "name": "Chaitanya Tandon"
+    },
+    {
+      "resume": "Ankit Dhariwal Resume_2024.json",
+      "answer": "Worked as a Software Engineer at Shiprocket.",
+      "name": "ANKIT DHARIWAL"
+    },
+    {
+      "resume": "Priya Kumari_SHT Resume 1.json",
+      "answer": "Working experience in E-commerce, secondary research methodologies, data analysis, and comprehensive internet research and analysis techniques.",
+      "name": "Priya Kumari"
+    },
+    {
+      "resume": "Jayant Singh-resume.json",
+      "answer": "The application is live at https://givley.com/",
+      "name": "Jayant Singh"
+    },
+    {
+      "resume": "Sunil Sharma_CV2.json",
+      "answer": "Performed data analysis and set up task reporting for an e-commerce client using tools like Google Analytics, Power BI, and Data Studio.",
+      "name": "Sunil Sharma"
+    },
+    {
+      "resume": "Cherav_Goyal_Resume.json",
+      "answer": "Created a relational database using SQL (Oracle Live) to digitally store information that can be retrieved and distributed easily at a later time.",
+      "name": "Cherav Goyal"
+    },
+    {
+      "resume": "shubham Tiwari _CV.json",
+      "answer": "Specialized in developing negotiation solutions for the hospitality and ecommerce industry.",
+      "name": "SHUBHAM TIWARI"
+    }
+  ],
+  "Find candidates who have experience as a Product Manager in the last 3 years.": [
+    {
+      "resume": "DebanjanBhattacharya[3_2].json",
+      "answer": "Product Manager at CarWale since 2020-05.",
+      "name": "Debanjan Bhattacharya"
+    },
+    {
+      "resume": "Iftekar_Ahmed_V2.json",
+      "answer": "Product Manager for 8 Projects under SAI including revamp of flagship projects 'Khelo India' and 'FIT India'.",
+      "name": "Iftekar Ahmed"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "Product Manager with over 8 years of experience.",
+      "name": "Sidak Singh"
+    }
+  ],
+  "List candidates who changed careers more than twice.": [],
+  "List candidates who have worked on AI-powered chatbots.": [
+    {
+      "resume": "Ikjot Singh.json",
+      "answer": "Implemented a RAG chain for a chatbot by integrating ChromaDB as the vector store and Elasticsearch for efficient data retrieval.",
+      "name": "Ikjot Singh"
+    },
+    {
+      "resume": "Ishan Katoch.json",
+      "answer": "Engineered an advanced chatbot exceeding current GenAI standards, achieving a 25% boost in conversational engagement and accuracy.",
+      "name": "ISHAN KATOCH"
+    },
+    {
+      "resume": "Vishnu resume (11).json",
+      "answer": "Developed an AI-powered email monitoring system for the campaign management team at Tyroo.",
+      "name": "Vishnu Pillai"
+    },
+    {
+      "resume": "Minal_Mahala_Resume_ .json",
+      "answer": "Developed an End-to-End ATS Resume Expert application using Streamlit and Google Gemini API.",
+      "name": "Minal Mahala"
+    },
+    {
+      "resume": "Anirudh Kansal_CV1.json",
+      "answer": "Experienced professional in NLP, GenAI development, and Backend engineering. Specialized in building AI Conversational Multi Agents and Chatbots powered by RAG.",
+      "name": "Anirudh Kansal"
+    },
+    {
+      "resume": "Nikhil Kharbanda Resume.json",
+      "answer": "Fine‑Tuning Microsoft’s Dialogpt model for conversational AI chatbot.",
+      "name": "Nikhil Kharbanda"
+    },
+    {
+      "resume": "Bajrang Lal_V2.json",
+      "answer": "Developed and deployed Gen-AI-powered chatbots and document summarization applications leveraging LLMs like GPT-4.",
+      "name": "Bajrang Lal"
+    },
+    {
+      "resume": "Diksha Sashwat CV.json",
+      "answer": "This Telegram chatbot for college admission is to streamline and enhance the admissions process.",
+      "name": "Diksha"
+    },
+    {
+      "resume": "Yogesh Yadav.json",
+      "answer": "Created a chatbot using hugging face models for user interaction.",
+      "name": "Yogesh Yadav"
+    },
+    {
+      "resume": "Dhruv Gupta.json",
+      "answer": "Developed an interactive platform using LangChain and Groq to analyze quantum physics research papers.",
+      "name": "DHRUV GUPTA"
+    },
+    {
+      "resume": "sanyamResume.json",
+      "answer": "Design Front end view of Chatbot in React.js.",
+      "name": "Sanyam Jain"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Initiated and played a key role in establishing a department dedicated to AI products, encompassing GenAI, LLMs, and AI-related products within the company.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "Pulkit Garg.json",
+      "answer": "Implemented a chatbot feature to deliver tailored remedies and advice for effective crop management.",
+      "name": "Pulkit Garg"
+    },
+    {
+      "resume": "Resume Kushagra Wadhwa.json",
+      "answer": "Developed an advanced 'Knowledge-AI' chatbot leveraging LlamaIndex and Gemini embeddings, achieving accurate responses for document-based queries.",
+      "name": "Kushagra Wadhwa"
+    },
+    {
+      "resume": "shubham Tiwari _CV.json",
+      "answer": "The system utilizes ChatGPT, an AI model to generate these personalized messages.",
+      "name": "SHUBHAM TIWARI"
+    }
+  ],
+  "Find candidates who have managed multiple projects in the last 2 years.": [
+    {
+      "resume": "Vikash Sharma.json",
+      "answer": "Managed and mentored a team of 11 professionals, ensuring seamless collaboration and timely project delivery.",
+      "name": "Vikash Sharma"
+    },
+    {
+      "resume": "Shubham_Shrivastava_Resume.json",
+      "answer": "Successfully delivered 7 projects in different segments leading to a new revenue stream of 3.5 million USD for the organization.",
+      "name": "SHUBHAM SHRIVASTAVA"
+    },
+    {
+      "resume": "Kuldeep Resume.json",
+      "answer": "We have successfully completed the project before the deadline.",
+      "name": "Kuldeep Singh"
+    },
+    {
+      "resume": "Teena Sidhar's Resume-compressed.json",
+      "answer": "Managed independent projects, including Merchant/Bulk listings on various platforms.",
+      "name": "Teena Sidhard"
+    },
+    {
+      "resume": "Sona_Project Manager.json",
+      "answer": "Managing agile projects, responsible for end-to-end Project & test deliverables and successful closure of all the Project activities during the release.",
+      "name": "Sona Grover"
+    },
+    {
+      "resume": "Iftekar_Ahmed_V2.json",
+      "answer": "Managed team of 30+ developers and Athlete Managers under the Operations and IT Division of SAI.",
+      "name": "Iftekar Ahmed"
+    },
+    {
+      "resume": "Resume-Pooja-Kumari P.json",
+      "answer": "Managed global research projects, ensuring on-time, within-scope, and budget-friendly delivery while serving as the key client liaison.",
+      "name": "POOJA KUMARI"
+    },
+    {
+      "resume": "Manish Maurya _CV.json",
+      "answer": "Worked on various projects including Churn Rate Analysis, Data Analysis using SQL, Product Similarity Matching, and Deployment of NLP based document search solution.",
+      "name": "Manish Maurya"
+    },
+    {
+      "resume": "vishal-pathak.json",
+      "answer": "Currently involved in producing enterprise grade solutions for the telecom industry wherein products are like real time network monitoring systems, Change management systems, automating charging systems.",
+      "name": "Vishal Pathak"
+    },
+    {
+      "resume": "Kavita_Teekas_CV.json",
+      "answer": "Spearheaded development of innovative solutions after cross-functional interaction, managing seamless client interactions and building Proposals following comprehensive market research.",
+      "name": "Kavita Teekas"
+    },
+    {
+      "resume": "Resume_Pradeep_2021.json",
+      "answer": "Leading technology initiatives and managing projects in the finance domain.",
+      "name": "Pradeep Kumar Rai"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "Managed multiple projects as General Manager at Motion Education Pvt Ltd.",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Successfully delivered 25+ products during the tenure.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "MunnaKumar[4_0].json",
+      "answer": "Worked as a team member for 'Idpro' and 'AV Tracker' projects.",
+      "name": "Munna Kumar"
+    },
+    {
+      "resume": "Sunil Sharma_CV1.json",
+      "answer": "Led a large project of 1.5 Crore to improve our current infrastructure.",
+      "name": "Sunil Sharma"
+    },
+    {
+      "resume": "GNDEC - Upneet Kaur 1 (1).json",
+      "answer": "Created a dynamic website and a centralised database for students, societies and administration of College. Created a dynamic website that provides the facility to order food online. Created a software to manage business that keeps a track of the money inflow and outflow for generating profit.",
+      "name": "UPNEET KAUR"
+    },
+    {
+      "resume": "shubham Tiwari _CV.json",
+      "answer": "Consistently delivered high-quality software projects on schedule.",
+      "name": "SHUBHAM TIWARI"
+    }
+  ],
+  "How many candidates do we have as a Technical Architect?": [
+    {
+      "resume": "Amit Saxena resume_name.json",
+      "answer": "Technical Architect at Rsystems, India and Technical Architect at HCL Technologies.",
+      "name": "Amit Saxena"
+    }
+  ],
+  "Who has taken a sabbatical and returned to work in a different industry?": [],
+  "Who has worked in a contract role and is now looking for full-time positions.": [
+    {
+      "resume": "Mayank Dasuar Resume.json",
+      "answer": "Pursuing full-time role involved in data analysis and research.",
+      "name": "Mayank"
+    },
+    {
+      "resume": "Resume - Neena Abraham.json",
+      "answer": "I am seeking a full-time role to utilize and enhance my skills.",
+      "name": "Neena Abraham"
+    },
+    {
+      "resume": "Kohinoor_Singh_Resume(1).json",
+      "answer": "I am currently looking for a full-time position in an environment that offers a more significant challenge, increased benefits for my family, and the opportunity to help the company advance efficiently and productively.",
+      "name": "KOHINOOR SINGH"
+    },
+    {
+      "resume": "Naukri_PreetomKrBanerjee[7y_0m] (1).json",
+      "answer": "Deployed at the client Election Commission of India (contractual) as a Sr. Software Developer.",
+      "name": "Preetom Kumar Banerjee"
+    }
+  ],
+  "List candidates who have worked on AI/ML models and have expertise in TensorFlow or PyTorch.": [
+    {
+      "resume": "Rahul Kumar.json",
+      "answer": "Experience in AI/ML models with expertise in TensorFlow and PyTorch.",
+      "name": "RAHUL KUMAR"
+    },
+    {
+      "resume": "Ikjot Singh.json",
+      "answer": "Developed an ML model for detecting diabetic retinopathy using deep learning techniques. Utilized Convolutional Neural Networks (CNN) and TensorFlow to achieve high accuracy in image classification.",
+      "name": "Ikjot Singh"
+    },
+    {
+      "resume": "Ishan Katoch.json",
+      "answer": "Skills include TensorFlow, PyTorch, and experience as an AI/ML Intern.",
+      "name": "ISHAN KATOCH"
+    },
+    {
+      "resume": "VarunRustagi_Resume.json",
+      "answer": "Improved an experimental team building machine learning model developed by the owner in TensorFlow.js.",
+      "name": "Varun Rustagi"
+    },
+    {
+      "resume": "Naman Mathur CV.json",
+      "answer": "Developed an advanced Text-to-SQL machine learning model that converts queries written in natural language for various use cases into SQL queries tailored for Naukri.com's SQL database prompts, enhancing automation of SQL query generation.",
+      "name": "Naman Mathur"
+    },
+    {
+      "resume": "Abhinav Arvind.json",
+      "answer": "Worked on a Binary classification problem... Used Deep learning and used ANN’s and RNN’s (neural networks)...",
+      "name": "Abhinav Arvind"
+    },
+    {
+      "resume": "Nikhil Kharbanda Resume.json",
+      "answer": "Machine learning frameworks/libraries: Pytorch.",
+      "name": "Nikhil Kharbanda"
+    },
+    {
+      "resume": "Antim.json",
+      "answer": "Utilized NIR sensor to capture spectral data of apple with high accuracy and precision. Employed a Deep Neural Network to develop a robust classifier using TensorFlow, ensuring accurate predictions on a dataset of 20K samples.",
+      "name": "Antim"
+    },
+    {
+      "resume": "Dhruv Gupta.json",
+      "answer": "Skills: Pytorch",
+      "name": "DHRUV GUPTA"
+    },
+    {
+      "resume": "Manish Maurya _CV.json",
+      "answer": "Skills include TensorFlow, Keras, and Scikit-learn.",
+      "name": "Manish Maurya"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "ML and AI implementation mentioned in the role of Functional Head at Resonance Eduventures Limited.",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Resume Kushagra Wadhwa.json",
+      "answer": "Skilled in building innovative LLM-powered solutions, RAG pipelines, and automation tools.",
+      "name": "Kushagra Wadhwa"
+    },
+    {
+      "resume": "Cherav_Goyal_Resume.json",
+      "answer": "Integrated machine learning for heart attack risk prediction using everyday vitals and health data.",
+      "name": "Cherav Goyal"
+    }
+  ],
+  "List candidates with experience in Generative AI or LLM-based applications.": [
+    {
+      "resume": "Ikjot Singh.json",
+      "answer": "Leveraged Azure OpenAI API to use ChatGPT in streamlining the development of various automation applications.",
+      "name": "Ikjot Singh"
+    },
+    {
+      "resume": "Ishan Katoch.json",
+      "answer": "Fine-tuned LLMs on custom datasets, increasing model accuracy by 20%.",
+      "name": "ISHAN KATOCH"
+    },
+    {
+      "resume": "Vishnu resume (11).json",
+      "answer": "Leveraged Retrieval-Augmented Generation (RAG) and automation tools to categorize and analyze emails.",
+      "name": "Vishnu Pillai"
+    },
+    {
+      "resume": "Minal_Mahala_Resume_ .json",
+      "answer": "Created a RAG based pipeline, which helps team members to quickly extract the flowcharts and Images from the Documents, PDFs, Visio Files using GPT-4o API.",
+      "name": "Minal Mahala"
+    },
+    {
+      "resume": "Vikash Sharma.json",
+      "answer": "Managing an internal project (AI Studio) focused on developing a scalable RAG-LLM pipeline.",
+      "name": "Vikash Sharma"
+    },
+    {
+      "resume": "Shubham_Shrivastava_Resume.json",
+      "answer": "ChatGPT & Generative AI certification from Great Learning.",
+      "name": "SHUBHAM SHRIVASTAVA"
+    },
+    {
+      "resume": "Anirudh Kansal_CV1.json",
+      "answer": "Experienced professional in NLP, GenAI development, and Backend engineering.",
+      "name": "Anirudh Kansal"
+    },
+    {
+      "resume": "Bajrang Lal_V2.json",
+      "answer": "Proficient in backend development with over 1 year of experience specializing in Python, Django, and Generative AI.",
+      "name": "Bajrang Lal"
+    },
+    {
+      "resume": "Shamshad.json",
+      "answer": "Expertise in GenAI and built and optimized text-generation pipelines using RAG and LLMs (Llama, Mistral, GPT).",
+      "name": "Shamshad"
+    },
+    {
+      "resume": "Yogesh Yadav.json",
+      "answer": "Developed a conversational AI chatbot using Retrieval-Augmented Generation (RAG) architecture for contextually relevant responses.",
+      "name": "Yogesh Yadav"
+    },
+    {
+      "resume": "Rajneesh_V2.json",
+      "answer": "Integrated an ETL pipeline capable of fetching and creating embeddings for 10,000 data points in under 1 hour. Leveraged Amazon Bedrock for embedding generation.",
+      "name": "Rajneesh"
+    },
+    {
+      "resume": "rithik_gandhi_resume_-1.json",
+      "answer": "Designed and Developed a Warehouse AI Assistant which can help users get information from company’s database.",
+      "name": "Rithik Gandhi"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Initiated and played a key role in establishing a department dedicated to AI products, encompassing GenAI, LLMs, and AI-related products within the company.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "Sanjam_Bedi_CV_updated.json",
+      "answer": "Developed a Retrieval-Augmented Generation (RAG) pipeline leveraging open-source Large Language Models (LLMs).",
+      "name": "Sanjam Kaur Bedi"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "ML/AI/LLM-based e-commerce product built by 'Shorthills.ai'.",
+      "name": "Sidak Singh"
+    },
+    {
+      "resume": "Resume Kushagra Wadhwa.json",
+      "answer": "Passionate AI and Data Science enthusiast with a strong foundation in Python, AI/ML, and NLP frameworks.",
+      "name": "Kushagra Wadhwa"
+    }
+  ],
+  "Find candidates with expertise in both frontend (React, Angular) and backend (Node.js, Django).": [
+    {
+      "resume": "Aryan.json",
+      "answer": "Skills include 'Reactjs' and 'Node.js'.",
+      "name": "ARYAN PAL"
+    },
+    {
+      "resume": "Amit Saxena resume_name.json",
+      "answer": "Skills include JavaScript Frameworks (React, Angular) and backend technologies (Node.js).",
+      "name": "Amit Saxena"
+    },
+    {
+      "resume": "Rahul Kumar.json",
+      "answer": "Experience as a Full Stack Developer with React and Node.js.",
+      "name": "RAHUL KUMAR"
+    },
+    {
+      "resume": "Resume_Priyanshu_20146 (1).json",
+      "answer": "Spearheaded the migration of the corporate website to React framework; skills include React and Node.js.",
+      "name": "Priyanshu Kumar Singh"
+    },
+    {
+      "resume": "Amit Bishnoi Resume.json",
+      "answer": "Amit Bishnoi has expertise in frontend (React) and backend (Node.js).",
+      "name": "Amit Bishnoi"
+    },
+    {
+      "resume": "Chanderveer Singh.json",
+      "answer": "Developed a full-stack MERN website using React.js for frontend and Node.js for backend.",
+      "name": "CHANDERVEER SINGH CHAUHAN"
+    },
+    {
+      "resume": "VarunRustagi_Resume.json",
+      "answer": "Highly skilled in React and Node.js.",
+      "name": "Varun Rustagi"
+    },
+    {
+      "resume": "Vishnu resume (11).json",
+      "answer": "Skills include React, Node.js.",
+      "name": "Vishnu Pillai"
+    },
+    {
+      "resume": "Aditya Kalra Resume'.json",
+      "answer": "Expertise in both frontend (React.js) and backend (Node.js, Express.js).",
+      "name": "ADITYA KALRA"
+    },
+    {
+      "resume": "Vivek Patidar.json",
+      "answer": "Expertise in both frontend (React) and backend (Node.js, Express.js).",
+      "name": "Vivek Patidar"
+    },
+    {
+      "resume": "Naman Mathur CV.json",
+      "answer": "Designed and developed the company’s website using React, with a focus on user-friendly navigation and seamless functionality.",
+      "name": "Naman Mathur"
+    },
+    {
+      "resume": "Gautam Upadhyay.json",
+      "answer": "Expertise in React (frontend) and Node.js (backend) as part of the MERN stack.",
+      "name": "GAUTAM UPADHYAY"
+    },
+    {
+      "resume": "Atul_Singh_Resume_1 2.json",
+      "answer": "Skills include React.js and NodeJs.",
+      "name": "Atul Singh"
+    },
+    {
+      "resume": "Aarti Singh.json",
+      "answer": "Developed a full-stack food delivery app using HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.",
+      "name": "Aarti Singh"
+    },
+    {
+      "resume": "Anuj Maurya.json",
+      "answer": "Skills include React, Angular, NodeJs, and Express.",
+      "name": "Anuj Maurya"
+    },
+    {
+      "resume": "NIT UTR - Aryaman Jaiswal (1).json",
+      "answer": "Skills include React.js and Node.js.",
+      "name": "Aryaman Jaiswal"
+    },
+    {
+      "resume": "Arpit Yadav.json",
+      "answer": "Skills include React and Node.js.",
+      "name": "ARPIT YADAV"
+    },
+    {
+      "resume": "MukulShorthills.json",
+      "answer": "Skills include Vue, React, Node, and Django.",
+      "name": "Mukul"
+    },
+    {
+      "resume": "Rajneesh_Resume_2021.json",
+      "answer": "Working with react, angular, nodejs, firebase, google script, Mysql, Javascript, Html, css, bootstrap.",
+      "name": "Rajneesh Singh"
+    },
+    {
+      "resume": "Diksha Sashwat CV.json",
+      "answer": "Skills include Angularjs, Nodejs, Reactjs.",
+      "name": "Diksha"
+    },
+    {
+      "resume": "Resume  - Sakshi Bhumbla 1.json",
+      "answer": "Tech Stack: Java, React, Node and JavaScript.",
+      "name": "Sakshi Bhumbla"
+    },
+    {
+      "resume": "Resume - Tanmay Kumar.json",
+      "answer": "Skills include React.js and Node.js.",
+      "name": "Tanmay Kumar"
+    },
+    {
+      "resume": "Ravleen CV.json",
+      "answer": "Skills include ReactJs, Node Js, and other related technologies.",
+      "name": "Ravleen Kaur"
+    },
+    {
+      "resume": "SRIJAN--RESUME.json",
+      "answer": "Skills include ReactJs and NodeJS.",
+      "name": "Srijan Pratap Srivastava"
+    },
+    {
+      "resume": "Naukri_PreetomKrBanerjee[7y_0m] (1).json",
+      "answer": "Currently, a Full Stack Developer Creating complete PWA Web Applications.",
+      "name": "Preetom Kumar Banerjee"
+    },
+    {
+      "resume": "Piyush.json",
+      "answer": "Skills include React Js, Node JS, and Express JS.",
+      "name": "PIYUSH"
+    },
+    {
+      "resume": "Antim.json",
+      "answer": "Developed the front end of a full-stack social media application using ReactJs with Tailwind CSS. Implemented the back end using NodeJs, ExpressJs, and MongoDB.",
+      "name": "Antim"
+    },
+    {
+      "resume": "Amit Kumar.json",
+      "answer": "Skills include ReactJs and NodeJS.",
+      "name": "Amit Kumar"
+    },
+    {
+      "resume": "Rajneesh_V2.json",
+      "answer": "Adept in both front-end and back-end development.",
+      "name": "Rajneesh"
+    },
+    {
+      "resume": "MANEESH KUMAR AGARWAL - Resume 1.json",
+      "answer": "I excel in both backend and frontend development, specializing in Python (Django, Django Rest Framework, Jinja2), JavaScript (jQuery, AngularJS, ReactJS, NodeJS, Vue.js).",
+      "name": "MANESSH KUMAR AGARWAL"
+    },
+    {
+      "resume": "Manish Maurya _CV.json",
+      "answer": "Skills include Django.",
+      "name": "Manish Maurya"
+    },
+    {
+      "resume": "vishal-pathak.json",
+      "answer": "Hands-on experience in frontend and backend application development using PHP, Python and Java and in backend and javascript, JQuery, ReactJS in frontend.",
+      "name": "Vishal Pathak"
+    },
+    {
+      "resume": "rithik_gandhi_resume_-1.json",
+      "answer": "Developed dynamic and responsive user interfaces using React, ensuring a seamless user experience across various devices and browsers. Utilized AWS services like SNS, SQS to trigger Lambda functions which were exposed as HTTP endpoints using API Gateway and NodeJs.",
+      "name": "Rithik Gandhi"
+    },
+    {
+      "resume": "Amrit Kumar Resume.json",
+      "answer": "Technologies used: HTML, Bootstrap, React, NodeJS, MongoDB.",
+      "name": "Amrit Kumar"
+    },
+    {
+      "resume": "Mihir_Kumar-Resume.json",
+      "answer": "Expertise in both frontend (React.js) and backend (Node.js, Express.js).",
+      "name": "MIHIR KUMAR"
+    },
+    {
+      "resume": "sanyamResume.json",
+      "answer": "Skills include React.js, Angular, and Node.js.",
+      "name": "Sanyam Jain"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Proficient in Backend (PHP, Python, Java) and FrontEnd (jQuery, React, Vue.js).",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "Yogesh_resume_June.json",
+      "answer": "Skills include React, NodeJs, and Express.",
+      "name": "Yogesh Kumar"
+    },
+    {
+      "resume": "Prince Srivastava CV.json",
+      "answer": "Experience in frontend and backend application development using PHP (Laravel framework) in backend and ReactJS (JavaScript) in frontend.",
+      "name": "Prince Srivastava"
+    },
+    {
+      "resume": "Lakshya Gupta .json",
+      "answer": "Skills include React.js and Node.js.",
+      "name": "Lakshya Gupta"
+    },
+    {
+      "resume": "GNDEC - Upneet Kaur 1 (1).json",
+      "answer": "Skills include Angular, React.js, Node.js.",
+      "name": "UPNEET KAUR"
+    },
+    {
+      "resume": "Varun Upadhyay.json",
+      "answer": "Developed and maintained the frontend of two responsive websites, ensuring a bug-free user experience. Created a payment gateway, enabling secure online transactions for users.",
+      "name": "Varun Upadhyay"
+    },
+    {
+      "resume": "Bhavit_Kumar_Resume_01-09-2023-21-55-30.pdf (1) (1) (1) (1).json",
+      "answer": "Skills include React JS and NodeJS.",
+      "name": "Bhavit Kumar"
+    },
+    {
+      "resume": "Kamal CV.json",
+      "answer": "Skills include ReactJs and NodeJs.",
+      "name": "Kamal"
+    }
+  ],
+  "Who has experience in building Progressive Web Apps.": [
+    {
+      "resume": "Naukri_PreetomKrBanerjee[7y_0m] (1).json",
+      "answer": "Currently, a Full Stack Developer Creating complete PWA Web Applications.",
+      "name": "Preetom Kumar Banerjee"
+    }
+  ],
+  "List candidates with experience in SEO, PPC, and digital marketing.": [
+    {
+      "resume": "Resume.json",
+      "answer": "Good in researching SEO friendly keyword data as per category and sub-category.",
+      "name": "Nishant Bakshi"
+    },
+    {
+      "resume": "Ishan Katoch.json",
+      "answer": "Optimizing UI/UX and SEO, resulting in a 30% increase in site engagement.",
+      "name": "ISHAN KATOCH"
+    },
+    {
+      "resume": "Anirudh Kansal_CV2.json",
+      "answer": "Have worked with finance/loan providing websites to provide them with SEO optimized articles.",
+      "name": "Anirudh Kansal"
+    },
+    {
+      "resume": "Mohd.Saleem K_ShorthillsAi Resume.json",
+      "answer": "Collaborating with marketing teams to optimize product titles and descriptions for SEO.",
+      "name": "Mohd.Saleem K."
+    },
+    {
+      "resume": "Teena Sidhar's Resume-compressed.json",
+      "answer": "Proven expertise in strategic planning, social media management and collaborations, content creation and campaign execution.",
+      "name": "Teena Sidhard"
+    },
+    {
+      "resume": "DebanjanBhattacharya[3_2].json",
+      "answer": "Responsible for user acquisition through search engine optimization.",
+      "name": "Debanjan Bhattacharya"
+    },
+    {
+      "resume": "Adarsh Adwait CV.json",
+      "answer": "Skills include Digital Marketing.",
+      "name": "ADARSH ADWAIT"
+    },
+    {
+      "resume": "AbhinavKumar[9y_0m].json",
+      "answer": "Performance marketing with marketing tools such as social media marketing, Google Ads and Meta Ads.",
+      "name": "Abhinav Kumar"
+    },
+    {
+      "resume": "Iftekar_Ahmed_V2.json",
+      "answer": "Experience in digital marketing.",
+      "name": "Iftekar Ahmed"
+    },
+    {
+      "resume": "Kavita_Teekas_CV.json",
+      "answer": "Optimized the website by performing SEO on content through keyword research using the tool SEMRush. Increased visibility of new product category ‘weight loss’ on digital platform through paid Ads and content creation.",
+      "name": "Kavita Teekas"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "Experience in digital marketing and increasing organic traffic and SEO rank as General Manager at Motion Education Pvt Ltd.",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Resume-Prashant-Agarwal.json",
+      "answer": "Headed a team of over 20 engineers and digital marketing professionals.",
+      "name": "PRASHANT AGARWAL"
+    },
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "Fundamentals of Digital Marketing Certification.",
+      "name": "Sidak Singh"
+    },
+    {
+      "resume": "Sunil Sharma_CV1.json",
+      "answer": "Led course design, digital marketing plan and content creation for a financial services program that I led from end to end.",
+      "name": "Sunil Sharma"
+    }
+  ],
+  "Who has managed large-scale B2B sales pipelines.": [
+    {
+      "resume": "Adarsh Adwait CV.json",
+      "answer": "Managed the account book for the APAC region, driving the acquisition of new logos and serving as the primary point of contact for inbound and outbound leads.",
+      "name": "ADARSH ADWAIT"
+    },
+    {
+      "resume": "AbhinavKumar[9y_0m].json",
+      "answer": "Managed a team of 10-12 SDRs, driving the sales pipeline for Ezucator by overseeing outreach activities including email, InMail, and phone outreach to secure demo meetings and close deals.",
+      "name": "Abhinav Kumar"
+    },
+    {
+      "resume": "Naukri_AtulKumar.json",
+      "answer": "Adept at developing and implementing effective sales strategies that drive revenue growth and forge strong, long-term partnerships.",
+      "name": "Atul Kumar"
+    },
+    {
+      "resume": "ATUL_SHARMA.json",
+      "answer": "Established & leading a new vertical (Online Live classrooms) in the International & Indian Market. Successfully managing a team size of 8 sales executives for various International & Indian geographies.",
+      "name": "Atul Sharma"
+    },
+    {
+      "resume": "PRADEEP_JHA_Resume.json",
+      "answer": "Dynamic Inside Sales Specialist with 6 plus years of experience in exceeding sales quotas and building strong client relationships.",
+      "name": "PRADEEP JHA"
+    }
+  ],
+  "List candidates who have worked on both React.js and Node.js for at least 4 years and have experience in microservices architecture.": [],
+  "Find candidates with experience in cybersecurity and cloud security, specifically in AWS security architecture and SOC operations.": [
+    {
+      "resume": "Naman Mathur CV.json",
+      "answer": "Developed a malware detection system employing machine learning algorithms, enhancing accuracy and adaptability.",
+      "name": "Naman Mathur"
+    },
+    {
+      "resume": "rithik_gandhi_resume_-1.json",
+      "answer": "Implemented Active Directory infrastructure, ensuring secure and efficient user authentication and authorization across the organization.",
+      "name": "Rithik Gandhi"
+    },
+    {
+      "resume": "Honey Desai Resume.json",
+      "answer": "Working with AWS S3 bucket, Cloudwatch and ElasticBeanStalk to monitor logs errors, rollback releases.",
+      "name": "HONEY P. DESAI"
+    },
+    {
+      "resume": "Prince Srivastava CV.json",
+      "answer": "Worked on Amazon Web Services (EC2, Route53, Cloudfront and S3 services) and GoDaddy for web application deployment.",
+      "name": "Prince Srivastava"
+    }
+  ],
+  "Find candidates who started as Software Engineers, then became Tech Leads, and are now Engineering Managers with over 10 years of experience.": [],
+  "List candidates with experience in EdTech platforms and personalized learning algorithms.": [
+    {
+      "resume": "Resume_Priyanshu_20146 (1).json",
+      "answer": "Engineered a cutting-edge React web application during the COVID-19 crisis to streamline class scheduling for 1,000+ students and faculty members.",
+      "name": "Priyanshu Kumar Singh"
+    },
+    {
+      "resume": "Ikjot Singh.json",
+      "answer": "Developed a comprehensive learning platform with core productivity tools like to-do lists, calendars, markdown-enabled notes, and a personalized AI-driven assistant for study recommendations.",
+      "name": "Ikjot Singh"
+    },
+    {
+      "resume": "Mohd Owais_ CV.json",
+      "answer": "Business Development Trainee at BYJU’s, creating a detailed business analysis, outlining problems, opportunities and solutions for a client.",
+      "name": "MOHD OWAIS"
+    },
+    {
+      "resume": "Naman Mathur CV.json",
+      "answer": "Developed and implemented data-driven strategies to improve teaching effectiveness in affordable private schools, customizing professional development programs based on analytics.",
+      "name": "Naman Mathur"
+    },
+    {
+      "resume": "Rajneesh_Resume_2021.json",
+      "answer": "Developed an application using Angular for Sarthi Education for students in primary schools.",
+      "name": "Rajneesh Singh"
+    },
+    {
+      "resume": "Piyush.json",
+      "answer": "Developed and launched Edusity, a comprehensive educational website leveraging React.js for front-end development.",
+      "name": "PIYUSH"
+    },
+    {
+      "resume": "ATUL_SHARMA.json",
+      "answer": "Established & leading a new vertical (Online Live classrooms) in the International & Indian Market.",
+      "name": "Atul Sharma"
+    },
+    {
+      "resume": "vishal-pathak.json",
+      "answer": "Responsible for development of enterprise grade 'Learning management system' for the customers ease of accessibility.",
+      "name": "Vishal Pathak"
+    },
+    {
+      "resume": "Anshuman Tanwar CV.json",
+      "answer": "Experience in EdTech as General Manager at Motion Education Pvt Ltd and Functional Head at Resonance Eduventures Limited.",
+      "name": "Anshuman Tanwar"
+    },
+    {
+      "resume": "Devanshu CV.json",
+      "answer": "Collaborated with Microsoft Consulting to build Swayam - an android app based on WizIQ's Online Academy SaaS product.",
+      "name": "Devanshu Kaushik"
+    },
+    {
+      "resume": "Varun Upadhyay.json",
+      "answer": "Led the design and implementation of a comprehensive school management system, reducing administrative workload by 30% and achieving 80% online management of school operations.",
+      "name": "Varun Upadhyay"
+    }
+  ],
+  "Find candidates with a Master’s degree in Computer Science and at least 3 years of experience in cloud security.": [
+    {
+      "resume": "Vikash Sharma.json",
+      "answer": "Masters in Technology (Computer Science)",
+      "name": "Vikash Sharma"
+    }
+  ],
+  "Find candidates with a Ph.D.": [],
+  "List candidates with a CPA certification who also have experience in financial automation.": [],
+  "Find tech leaders who have scaled engineering teams from startup to enterprise level.": [],
+  "Find candidates who started as Software Engineers and later transitioned to Product Management roles with at least 3 years of experience as Product Managers.": [
+    {
+      "resume": "CV-Sidak_Linkedin.json",
+      "answer": "started as Software QA Engineer and later became Senior Product Manager.",
+      "name": "Sidak Singh"
+    }
+  ],
+  "DevOps related Query, Content+SEO related query.": [
+    {
+      "resume": "Sunny Sinha - Devops Engineer.json",
+      "answer": "Having overall 1+ Year of Professional experience as DevOps Engineer in IT Infrastructure.",
+      "name": "Sunny Sinha"
+    }
+  ],
+  "Candidates with experience in client-facing roles.": [
+    {
+      "resume": "Resume.json",
+      "answer": "Weekly meeting with client on Skype Business, Zoom. Informing about progress reports, asking queries and issue of client and get back to them with positive solution.",
+      "name": "Nishant Bakshi"
+    },
+    {
+      "resume": "Neha-Resume.json",
+      "answer": "Worked closely with Product Team & stakeholders to create outstanding user experience for desktop, tablet and mobile applications.",
+      "name": "Neha Joshi"
+    },
+    {
+      "resume": "Udit_Tanwar_-_Microsoft_365_Admin (3) 1.json",
+      "answer": "Provided technical support for end-users and resolved escalated technical issues.",
+      "name": "UDIT TANWAR"
+    },
+    {
+      "resume": "Rahul Thapar my resume.json",
+      "answer": "Making outbound calls for Southall travels.com and traveltrolley.co.uk and informing the passengers about schedule changes by the airlines for UK and Europe based customers.",
+      "name": "RAHUL THAPAR"
+    },
+    {
+      "resume": "Shubham_Shrivastava_Resume.json",
+      "answer": "Collaborated with clients globally, engineering teams, and stakeholders to prioritize features for a large-scale IoT platform.",
+      "name": "SHUBHAM SHRIVASTAVA"
+    },
+    {
+      "resume": "Rashmi Upase -2021.json",
+      "answer": "Act as contractual 'middleman' between the organization and customers, ensuring timely review and approval.",
+      "name": "Rashmi Upase"
+    },
+    {
+      "resume": "Alok_Kaswan.json",
+      "answer": "Reporting to Project Manager. Slickdeals: Deal hunting for US clients.",
+      "name": "Alok Kaswan"
+    },
+    {
+      "resume": "DEEPALI_JENA_RESUME_1Yr.json",
+      "answer": "Demonstrates strong client engagement skills",
+      "name": "Deepali Jena"
+    },
+    {
+      "resume": "UtkalSahoo_IIMUdaipur_Resume.json",
+      "answer": "Provided customer support for logistics web app suite, and efficiently resolved critical bugs.",
+      "name": "Utkal Sahoo"
+    },
+    {
+      "resume": "Resume of Ajay Kumar Sahu.docx.json",
+      "answer": "To understand business processes and finalize the approach with clients with timeline and delivery date.",
+      "name": "NOT_FOUND"
+    },
+    {
+      "resume": "Nikhil_Sharma_CV.json",
+      "answer": "Arranged and took part in company trainings. Gathered customer data to assist seniors in preparing reports. Developed and put into action ways to increase sales. By addressing customer preferences, was able to gauge market sentiment. Presented prompt solutions to all clients.",
+      "name": "NIKHIL SHARMA"
+    },
+    {
+      "resume": "Shikhar Varshney.json",
+      "answer": "Engaged with stakeholders regularly to gather feedback, and ensured continuous improvement.",
+      "name": "Shikhar Varshney"
+    },
+    {
+      "resume": "Seema Sethi Updated cv.json",
+      "answer": "Handling emails and WhatsApp messages of the customers regarding their complaints, appreciation and queries related to the orders made.",
+      "name": "Seema Sethi"
+    },
+    {
+      "resume": "Dhruv Mulchandani resume.json",
+      "answer": "Worked as the client’s first point of contact across all engagements.",
+      "name": "Dhruv Mulchandani"
+    },
+    {
+      "resume": "Adarsh Adwait CV.json",
+      "answer": "Served as the primary point of contact for inbound and outbound leads.",
+      "name": "ADARSH ADWAIT"
+    },
+    {
+      "resume": "MdAmir _1.1 resume.json",
+      "answer": "Achieving higher levels of customer satisfaction, Escalations and Maintaining SLA with Clients.",
+      "name": "MD AMIR HASAN ANSARI"
+    },
+    {
+      "resume": "Naukri_AtulKumar.json",
+      "answer": "Demonstrated ability to lead complex negotiations, manage key accounts, and contribute to the achievement of organizational goals.",
+      "name": "Atul Kumar"
+    },
+    {
+      "resume": "Nabaneet Pradhan (Resume).json",
+      "answer": "Managing a set of dedicated clients’ viz. Developers, PE Funds, Banks, Consulting Firms, Real Estate Developers, etc.",
+      "name": "Nabaneet Pradhan"
+    },
+    {
+      "resume": "khushi singhal CV.json",
+      "answer": "Handled quality analysis of data inputs and ensured high client satisfaction.",
+      "name": "Khushi Singhal"
+    },
+    {
+      "resume": "Manjari Sharma -24R.json",
+      "answer": "Managing communication with client/vendors and other stakeholders of the projects.",
+      "name": "Manjari Sharma"
+    },
+    {
+      "resume": "Srishti Resume 2022.json",
+      "answer": "Managed client relationships, provided customer service, generated SLA reports, and participated in process improvement initiatives.",
+      "name": "Srishti Narula"
+    },
+    {
+      "resume": "Beerpal Singh resume.json",
+      "answer": "Assisting customers by providing information about services online application forms (passport, pan card, driving licence), computer usage, printing, photo printing, scanning and typing.",
+      "name": "BEERPAL SINGH"
+    },
+    {
+      "resume": "Resume Satyam Bhargav.json",
+      "answer": "Liasing with partners & secretaries in order to obtain personal information required for partners annual individual tax filing.",
+      "name": "Satyam Bhargav"
+    },
+    {
+      "resume": "Iftekar_Ahmed_V2.json",
+      "answer": "Trained over 100+ global clients on optimum usage of Vantage Pulse.",
+      "name": "Iftekar Ahmed"
+    },
+    {
+      "resume": "Harsh_Sharma_CV.json",
+      "answer": "Support Agent (Meesho Supplier Support)",
+      "name": "Harsh Sharma"
+    },
+    {
+      "resume": "Disha Sethi Resume.json",
+      "answer": "Addressed 10+ clients, including major NBFCs and banks, ensuring exceptional service delivery and meeting diverse needs effectively.",
+      "name": "Disha Sethi"
+    },
+    {
+      "resume": "Resume-Pooja-Kumari P.json",
+      "answer": "Acted as the primary client contact, delivering actionable recommendations based on data analysis.",
+      "name": "POOJA KUMARI"
+    },
+    {
+      "resume": "Kavita_Teekas_CV.json",
+      "answer": "Acted as the primary bridge between clients and the company, nurturing relationships, identifying key pain points, and delivering optimal solutions.",
+      "name": "Kavita Teekas"
+    },
+    {
+      "resume": "Yashdeep CV.json",
+      "answer": "Engaged in the travel section, assisting with itinerary planning, ticketing, and travel arrangements for clients.",
+      "name": "Yashdeep Singh"
+    },
+    {
+      "resume": "Yogesh_resume_June.json",
+      "answer": "Worked as a Subject Matter Expert Computer Science, solving questions and doubts of students from across the globe.",
+      "name": "Yogesh Kumar"
+    },
+    {
+      "resume": "CA Anmol Chaudhary.json",
+      "answer": "Working in the field of Transfer Pricing – International Taxation and Consultation to Clients on various matters.",
+      "name": "Anmol Chaudhary"
+    },
+    {
+      "resume": "Shekhar Tyagi Resume.json",
+      "answer": "Communication with client and meeting.",
+      "name": "Shekhar Tyagi"
+    },
+    {
+      "resume": "Arpit SINGH CV.json",
+      "answer": "Act as a bridge between the client and technical team during the client onboarding period.",
+      "name": "Arpit Singh"
+    },
+    {
+      "resume": "Ashish kaushik resume..json",
+      "answer": "As a Google ads analyst I worked on the EWOQ Google Ads Rating project, analyzing and providing feedback on various types of information for Google.",
+      "name": "Ashish Kaushik"
+    },
+    {
+      "resume": "Sunil Sharma_CV2.json",
+      "answer": "Implemented strategies to enhance Client Company satisfaction through effective communication and high-quality service delivery.",
+      "name": "Sunil Sharma"
+    },
+    {
+      "resume": "shubham Tiwari _CV.json",
+      "answer": "Collaborated with clients to understand requirements and deliver tailor-made solutions.",
+      "name": "SHUBHAM TIWARI"
+    }
+  ]
+}

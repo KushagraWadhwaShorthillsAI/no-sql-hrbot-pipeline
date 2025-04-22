@@ -5,16 +5,18 @@ from pathlib import Path
 from typing import List, Dict
 from collections import defaultdict
 from src.core.retriever import ResumeRetriever
+from src.core.filter_and_rerank import FilterAndRerank
 import statistics
 from src.core.search_builder import bm25_pipeline
 
 class RetrievalEvaluator:
-    def __init__(self, queries_path: str, gold_path: str, output_path: str, top_k: int = None, mode="bm25"):
+    def __init__(self, queries_path: str, gold_path: str, output_path: str, top_k: int = None, mode="bm25", use_filter: bool = False):
         self.mode = mode
         self.queries_path = queries_path
         self.gold_path = gold_path
         self.output_path = output_path
         self.top_k = top_k
+        self.use_filter = use_filter
         
         self.manual_keywords_path = "data/manual_keywords.json"
         self.null_queries_path = "data/null_queries.json"
@@ -25,6 +27,7 @@ class RetrievalEvaluator:
         self.queries = self._load_json(queries_path)
         self.gold_answers = self._load_json(gold_path)
         self.retriever = ResumeRetriever()
+        self.filter_rerank = FilterAndRerank() if use_filter else None
         self.log_file = Path("logs/evaluation.log")
         self.log_file.parent.mkdir(exist_ok=True)
 
@@ -111,7 +114,7 @@ class RetrievalEvaluator:
     async def run(self):
         results = []
 
-        if args.mode == "regex":
+        if self.mode == "regex":
             self._log("\n========== Starting Regex Evaluation ==========")
             for query in self.queries:
                 if query in self.null_queries:
@@ -126,6 +129,11 @@ class RetrievalEvaluator:
 
                 mongo_query = self.retriever.build_mongo_query(keywords)
                 matched_docs = list(self.retriever.collection.find(mongo_query))
+
+                if self.use_filter:
+                    self._log("🧠 Applying filter and rerank...")
+                    filtered_result = await self.filter_rerank.filter_and_rerank(query, matched_docs, top_k=self.top_k)
+                    matched_docs = filtered_result["filtered"]
 
                 eval_result = self.evaluate(query, "regex", matched_docs)
                 results.append(eval_result)
@@ -147,10 +155,15 @@ class RetrievalEvaluator:
                 result = await self.retriever.search(query, override_keywords=keywords)
                 bm25_results = result["matched"]
 
+                if self.use_filter:
+                    self._log("🧠 Applying filter and rerank...")
+                    filtered_result = await self.filter_rerank.filter_and_rerank(query, bm25_results, top_k=self.top_k)
+                    bm25_results = filtered_result["filtered"]
 
                 eval_result = self.evaluate(query, "bm25", bm25_results)
                 results.append(eval_result)
                 self._log(f"  ✅ BM25 | Precision: {eval_result['precision']} | Recall: {eval_result['recall']}")
+
         elif self.mode == "keyword":
             self._log("\n========== Starting Keyword Match Evaluation ==========")
             for query in self.queries:
@@ -167,13 +180,44 @@ class RetrievalEvaluator:
                 self._log(f"📌 Using manual keywords: {keywords}")
                 matched_docs = self.retriever.keyword_search(keywords, top_k=self.top_k)
 
+                if self.use_filter:
+                    self._log("🧠 Applying filter and rerank...")
+                    filtered_result = await self.filter_rerank.filter_and_rerank(query, matched_docs, top_k=self.top_k)
+                    matched_docs = filtered_result["filtered"]
+
                 eval_result = self.evaluate(query, "keyword", matched_docs)
                 results.append(eval_result)
                 self._log(f"  ✅ KEYWORD | Precision: {eval_result['precision']:.4f} | Recall: {eval_result['recall']:.4f}")
 
+        elif self.mode == "vector":
+            self._log("\n========== Starting Vector Evaluation ==========")
+            results = []
+
+            for query in self.queries:
+                if query in self.null_queries:
+                    self._log(f"⏭️  Skipping null query: {query}")
+                    continue
+
+                self._log(f"\n🔍 Query: {query}")
+                keywords = self.manual_keywords.get(query, [])
+                if not keywords:
+                    self._log("⚠️  No manual keywords found. Skipping.")
+                    continue
+
+                self._log(f"📌 Using manual keywords for embedding: {keywords}")
+                result = await self.retriever.vector_search(query, override_keywords=keywords, k=self.top_k)
+
+                if self.use_filter:
+                    self._log("🧠 Applying filter and rerank...")
+                    filtered_result = await self.filter_rerank.filter_and_rerank(query, result, top_k=self.top_k)
+                    result = filtered_result["filtered"]
+
+                eval_result = self.evaluate(query, "vector", result)
+                results.append(eval_result)
+                self._log(f"  ✅ VECTOR | Precision: {eval_result['precision']:.4f} | Recall: {eval_result['recall']:.4f}")
 
         else:
-            self._log(f"❌ Unsupported mode: {args.mode}")
+            self._log(f"❌ Unsupported mode: {self.mode}")
             return
 
         # Save results
@@ -255,10 +299,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--queries", type=str, default="data/test_queries.json")
     parser.add_argument("--gold", type=str, default="data/golden_answers_with_names.json")
-    parser.add_argument("--output", type=str, default="data/eval_results.json")
+    parser.add_argument("--output", type=str, default="data/eval_results.jsonl")
     parser.add_argument("--top_k", type=int, default=20)
     parser.add_argument("--summary_only", action="store_true", help="Only summarize existing results")
-    parser.add_argument("--mode", type=str, default="bm25", choices=["bm25", "regex", "keyword"], help="Retrieval mode to evaluate")
+    parser.add_argument("--mode", type=str, default="bm25", choices=["bm25", "regex", "keyword", "vector"], help="Retrieval mode to evaluate")
+    parser.add_argument("--use_filter", action="store_true", help="Use filter and rerank before evaluation")
 
     args = parser.parse_args()
 
@@ -267,7 +312,8 @@ if __name__ == "__main__":
         gold_path=args.gold,
         output_path=args.output,
         top_k=args.top_k,
-        mode = args.mode
+        mode=args.mode,
+        use_filter=args.use_filter
     )
 
     if args.summary_only:
